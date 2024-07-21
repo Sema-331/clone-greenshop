@@ -1,0 +1,112 @@
+/********************************** SECTION BLOG ******************************/
+
+$primary_color: #46A358;
+  $second_color: #727272;
+  $third_color: #3D3D3D;
+.blog {
+    margin-bottom: 120px;
+    .blog__info {
+      margin-bottom: 50px;
+      .blog__main-header {
+        color: #3D3D3D;
+        text-align: center;
+        font-family: Cera Pro;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        margin-bottom: 25px;
+        line-height: 16px; /* 53.333% */
+      }
+      .blog__main-description {
+        color: $second_color;
+        text-align: center;
+        font-family: Cera Pro;
+        font-size: 18px;
+        font-style: normal;
+        text-align: center;
+        font-weight: 400;
+        line-height: 24px; 
+      }
+    }
+    .blog__posts {
+      .blog__list-box {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        .blog__list-item {
+          width: 21.25%;
+          .blog__post-inside {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            .blog__post-img {
+              width: 100%;
+              margin-bottom: 10px;
+              img {
+                width: 100%;
+              }
+            }
+            .blog__post-description-inside {
+              width: 100%;
+              .blog__post-top-description {
+              color: $primary_color;
+              font-family: Cera Pro;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 500;
+              margin-bottom: 15px;
+              line-height: 20px; /* 114.286% */
+              }
+              .blog__post-header-inside {
+                color: $third_color;
+                font-family: Cera Pro;
+                font-size: 29px;
+                font-style: normal;
+                font-weight: 700;
+                margin-bottom: 10px;
+                line-height: 32px; /* 130% */
+              }
+              .blog__post-bottom-description {
+                color: $second_color;
+                font-family: Cera Pro;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 22px; 
+                margin-bottom: 20px;
+              }
+              .blog__post-read-more-btn {
+                color: $third_color;
+                font-family: Cera Pro;
+                font-size: 16px;
+                padding: 15px 25px;
+                border: 1px solid currentColor;
+                border-radius: 10px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 16px; /* 114.286% */
+                &:hover {
+                  background-color: #000;
+                  color: #fff;
+                  cursor: pointer;
+                  transition: all .3s ease-in-out;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .swiper-button-prev:after, .swiper-button-next:after {
+    font-size: 18px !important;
+  }
+  .plant__core-description {
+    color: #727272;
+    font-family: Cera Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+  }

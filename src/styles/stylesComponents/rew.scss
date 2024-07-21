@@ -1,0 +1,57 @@
+.rew__block {
+    .rew__main-header {
+        color: #46A358;
+        font-family: Cera Pro;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 16px;
+        margin-bottom: 60px;
+    }
+    .rew__block-videos {
+        .rew__block-inside {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 90px;
+            @media(max-width: 1000px) {
+                margin-bottom: 110px;
+                flex-direction: column;
+            }
+            .rew__block-main-video-content {
+                width: 35%;
+                @media(max-width: 1000px) {
+                    width: 100%;
+                    margin-bottom: 40px;
+                }
+            }
+            .rew__block-description-videos {
+                width: 55%;
+                @media(max-width: 1000px) {
+                    width: 100%;
+                }
+                .rew__block-rewiews-header {
+                    color: #46A358;
+                    font-family: Cera Pro;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 16px;
+                    margin-bottom: 60px;
+                    @media(max-width: 1000px) {
+                        margin-bottom: 20px;
+                    }
+                }
+                .rew__description-rewievs {
+                    color: #727272;
+                    font-family: Cera Pro;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+}

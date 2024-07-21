@@ -1,0 +1,72 @@
+.recently__main-block {
+  margin-bottom: 50px;
+}
+.recently__main-block .recently__header-product {
+  color: #46A358;
+  font-family: Cera Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  margin-bottom: 60px;
+}
+.recently__main-block .recently__block-list-product {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.recently__main-block .recently__block-list-product .recently__block-items {
+  width: 96.1%;
+  /* box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px; */
+  padding: 15px 25px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  border: 1px solid #ddd;
+}
+.recently__main-block .recently__block-list-product .recently__block-items:not(:last-child) {
+  margin-right: 30px;
+}
+.recently__main-block .recently__block-list-product .recently__block-items .recently__block-image {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+.recently__main-block .recently__block-list-product .recently__block-items .recently__block-image .recently__img {
+  width: 300px;
+  height: 255px;
+}
+.recently__main-block .recently__block-list-product .recently__block-items .recently__block-product-header {
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  margin-bottom: 10px;
+}
+.recently__main-block .recently__block-list-product .recently__block-items .recently__block-description {
+  color: #46A358;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.swiper {
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.swiper .swiper-wrapper {
+  width: 100%;
+}
+.swiper .swiper-wrapper .swiper-slide {
+  display: flex;
+  flex-direction: row;
+}
+.swiper .swiper-wrapper .swiper-slide .recently__block-items {
+  width: 18.1%;
+}/*# sourceMappingURL=recently.css.map */

@@ -1,0 +1,1234 @@
+.check__form-items .check__block-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 250px;
+  margin-top: 60px;
+}
+.check__form-items .check__block-main .check__block-form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.check__form-items .check__block-main .check__block-form .check__main-form-header {
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  margin-bottom: 40px;
+  font-weight: 700;
+  line-height: 16px;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-names {
+  display: flex;
+  flex-direction: column;
+  width: 46%;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-names .check__block-names-inside {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-names .check__block-names-inside .check__label-first-name {
+  margin-bottom: 10px;
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-names .check__block-names-inside .check__label-first-name span {
+  color: red;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-names .check__block-names-inside .check__row-first-name {
+  padding: 14px 18px;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 3px;
+  border: 1px solid #EAEAEA;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-names .check__block-names-inside .check__row-first-name::-moz-placeholder {
+  color: #A5A5A5;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-names .check__block-names-inside .check__row-first-name::placeholder {
+  color: #A5A5A5;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-last-names {
+  width: 46%;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-last-names .check__block-last-name-inside {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-last-names .check__block-last-name-inside .check__label-last-name {
+  margin-bottom: 10px;
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-last-names .check__block-last-name-inside .check__label-last-name span {
+  color: red;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-last-names .check__block-last-name-inside .check__row-last-name {
+  padding: 14px 18px;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 3px;
+  border: 1px solid #EAEAEA;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-last-names .check__block-last-name-inside .check__row-last-name::-moz-placeholder {
+  color: #A5A5A5;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-last-names .check__block-last-name-inside .check__row-last-name::placeholder {
+  color: #A5A5A5;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-region {
+  width: 46%;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-region .check__block-region-inside {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-region .check__block-region-inside .check__label-region-name {
+  margin-bottom: 10px;
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-region .check__block-region-inside .check__label-region-name span {
+  color: red;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-region .check__block-region-inside .check__block-region-selected {
+  width: 100%;
+  position: relative;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-region .check__block-region-inside .check__block-region-selected .check__row-region-name {
+  padding: 14px 18px;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 3px;
+  border: 1px solid #EAEAEA;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-region .check__block-region-inside .check__block-region-selected .check__row-region-name::-moz-placeholder {
+  color: #A5A5A5;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-region .check__block-region-inside .check__block-region-selected .check__row-region-name::placeholder {
+  color: #A5A5A5;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-region .check__block-region-inside .check__block-region-selected .arrow__down-region {
+  position: absolute;
+  right: 10px;
+  top: 22%;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-city {
+  width: 46%;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-city .check__block-city-inside {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-city .check__block-city-inside .check__label-city-name {
+  margin-bottom: 10px;
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-city .check__block-city-inside .check__label-city-name span {
+  color: red;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-city .check__block-city-inside .check__row-city-name {
+  padding: 14px 18px;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 3px;
+  border: 1px solid #EAEAEA;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-city .check__block-city-inside .check__row-city-name::-moz-placeholder {
+  color: #A5A5A5;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-city .check__block-city-inside .check__row-city-name::placeholder {
+  color: #A5A5A5;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-street-adress {
+  width: 46%;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-street-adress .check__block-street-adress-inside {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-street-adress .check__block-street-adress-inside .check__label-last-name-street-adress {
+  margin-bottom: 10px;
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-street-adress .check__block-street-adress-inside .check__label-last-name-street-adress span {
+  color: red;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-street-adress .check__block-street-adress-inside .check__row-street-adress {
+  padding: 14px 18px;
+  width: 100%;
+  border-radius: 3px;
+  font-size: 18px;
+  border: 1px solid #EAEAEA;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-street-adress .check__block-street-adress-inside .check__row-street-adress::-moz-placeholder {
+  color: #A5A5A5;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-street-adress .check__block-street-adress-inside .check__row-street-adress::placeholder {
+  color: #A5A5A5;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-suit {
+  width: 46%;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-suit .check__block-suit-inside {
+  display: flex;
+  flex-direction: column;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-suit .check__block-suit-inside .check__label-last-name-suit {
+  margin-bottom: 10px !important;
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-suit .check__block-suit-inside .check__row-suit {
+  padding: 14px 18px;
+  width: 100%;
+  border-radius: 3px;
+  font-size: 18px;
+  border: 1px solid #EAEAEA;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-suit .check__block-suit-inside .check__row-suit::-moz-placeholder {
+  color: #A5A5A5;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-suit .check__block-suit-inside .check__row-suit::placeholder {
+  color: #A5A5A5;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-state {
+  width: 46%;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-state .check__block-state-inside {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-state .check__block-state-inside .check__label-last-name-state {
+  margin-bottom: 10px;
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-state .check__block-state-inside .check__label-last-name-state span {
+  color: red;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-state .check__block-state-inside .check__block-state-selected {
+  width: 100%;
+  position: relative;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-state .check__block-state-inside .check__block-state-selected .check__row-state {
+  font-size: 18px;
+  padding: 14px 18px;
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid #EAEAEA;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-state .check__block-state-inside .check__block-state-selected .check__row-state::-moz-placeholder {
+  color: #A5A5A5;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-state .check__block-state-inside .check__block-state-selected .check__row-state::placeholder {
+  color: #A5A5A5;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-state .check__block-state-inside .check__block-state-selected .arrow__down-state {
+  position: absolute;
+  right: 10px;
+  top: 22%;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-zip {
+  width: 46%;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-zip .check__block-zip-inside {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-zip .check__block-zip-inside .check__label-zip {
+  margin-bottom: 10px;
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-zip .check__block-zip-inside .check__label-zip span {
+  color: red;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-zip .check__block-zip-inside .check__row-zip {
+  padding: 14px 18px;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 3px;
+  border: 1px solid #EAEAEA;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-zip .check__block-zip-inside .check__row-zip::-moz-placeholder {
+  color: #A5A5A5;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-zip .check__block-zip-inside .check__row-zip::placeholder {
+  color: #A5A5A5;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-email-adress {
+  width: 46%;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-email-adress .check__block-email-adress-inside {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-email-adress .check__block-email-adress-inside .check__label-email-adress {
+  margin-bottom: 10px;
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-email-adress .check__block-email-adress-inside .check__label-email-adress span {
+  color: red;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-email-adress .check__block-email-adress-inside .check__row-email-adress {
+  padding: 14px 18px;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 3px;
+  border: 1px solid #EAEAEA;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-email-adress .check__block-email-adress-inside .check__row-email-adress::-moz-placeholder {
+  color: #A5A5A5;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-email-adress .check__block-email-adress-inside .check__row-email-adress::placeholder {
+  color: #A5A5A5;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-phone-number {
+  width: 46%;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-phone-number .check__block-phone-inside {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-phone-number .check__block-phone-inside .check__label-phone-number {
+  margin-bottom: 10px;
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-phone-number .check__block-phone-inside .check__label-phone-number span {
+  color: red;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-phone-number .check__block-phone-inside .check__block-phone-number-select {
+  width: 100%;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-phone-number .check__block-phone-inside .check__block-phone-number-select .check__block-select-item-number {
+  position: relative;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-phone-number .check__block-phone-inside .check__block-phone-number-select .check__block-select-item-number .check__block-click-item {
+  padding: 14px 18px;
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid #EAEAEA;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-phone-number .check__block-phone-inside .check__block-phone-number-select .check__block-select-item-number .check__block-click-item .check__input-tel {
+  width: 100%;
+  font-size: 18px;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-phone-number .check__block-phone-inside .check__block-phone-number-select .check__block-select-item-number .check__block-click-item .check__input-tel .check__select-placeholder {
+  color: #A5A5A5;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-phone-number .check__block-phone-inside .check__block-phone-number-select .check__block-select-item-number .check__block-select-items {
+  position: absolute;
+  width: 88%;
+  padding: 10px 15px;
+  top: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  z-index: 100;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-phone-number .check__block-phone-inside .check__block-phone-number-select .check__block-select-item-number .check__block-select-items .check__list-item-number {
+  margin-bottom: 10px;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-ship-adress {
+  width: 100%;
+  margin-bottom: 60px;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-ship-adress .check__block-ship-adress-inside .check__block-input-boxes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-ship-adress .check__block-ship-adress-inside .check__block-input-boxes .check__radio-button {
+  margin-right: 10px;
+}
+.check__form-items .check__block-main .check__block-form .check__main-block-form-inside .check__block-ship-adress .check__block-ship-adress-inside .check__block-input-boxes .check__input-description {
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+.check__form-items .check__block-main .check__block-form .check__block-area {
+  width: 100%;
+  margin-bottom: 35px;
+}
+.check__form-items .check__block-main .check__block-form .check__block-area .check__block-area-inside {
+  width: 100%;
+}
+.check__form-items .check__block-main .check__block-form .check__block-area .check__block-area-inside .check__description-area {
+  color: #3D3D3D;
+  margin-bottom: 20px;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+}
+.check__form-items .check__block-main .check__block-form .check__block-area .check__block-area-inside .check__textarea {
+  border-radius: 3px;
+  border: 1px solid #EAEAEA;
+  width: 100%;
+}
+.check__form-items .check__block-main .check__block-form .check__block-button-submit .check__button-submit {
+  color: #FFF;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  width: 100%;
+  font-weight: 700;
+  line-height: 16px;
+  border-radius: 3px;
+  background: #46A358;
+  padding: 15px 25px;
+}
+.check__form-items .check__block-main .check__block-main-order {
+  width: 35%;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-header-order {
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  margin-bottom: 40px;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-about-products .check__block-about-product-description {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 25px;
+  border-bottom: 1px solid rgba(70, 163, 88, 0.5);
+  margin-bottom: 25px;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-about-products .check__block-about-product-description .check__item-description-name-first {
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-about-products .check__block-about-product-description .check__item-description-name-subtotal {
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-about-products .check__block-main-items .check__block-main-items-inside {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-about-products .check__block-main-items .check__block-main-items-inside:not(:last-child) {
+  margin-bottom: 20px;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-about-products .check__block-main-items .check__block-main-items-inside:last-child {
+  margin-bottom: 35px;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-about-products .check__block-main-items .check__block-main-items-inside .check__block-image-description {
+  display: flex;
+  flex-direction: row;
+  width: 62%;
+  align-items: center;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-about-products .check__block-main-items .check__block-main-items-inside .check__block-image-description .check__item-image {
+  width: 110px;
+  height: 110px;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-about-products .check__block-main-items .check__block-main-items-inside .check__block-image-description .check__block-description-item .check__header-main-items {
+  margin-bottom: 8px;
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-about-products .check__block-main-items .check__block-main-items-inside .check__block-image-description .check__block-description-item .check__block-identificatore-product {
+  display: flex;
+  flex-direction: row;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-about-products .check__block-main-items .check__block-main-items-inside .check__block-image-description .check__block-description-item .check__block-identificatore-product .check__dentificatore-name {
+  margin-right: 10px;
+  color: #A5A5A5;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-about-products .check__block-main-items .check__block-main-items-inside .check__block-image-description .check__block-description-item .check__block-identificatore-product .check__identificatore-value {
+  color: #727272;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-about-products .check__block-main-items .check__block-main-items-inside .check__block-count-item {
+  width: 10%;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-about-products .check__block-main-items .check__block-main-items-inside .check__block-count-item .check__item-count {
+  color: #727272;
+  text-align: right;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-about-products .check__block-main-items .check__block-main-items-inside .check__block-product-price {
+  width: 20%;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-about-products .check__block-main-items .check__block-main-items-inside .check__block-product-price .check__price-product {
+  color: #46A358;
+  text-align: right;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-pay-method-main .check__pay-method-header {
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  margin-bottom: 25px;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-pay-method-main .check__block-pay-method-inside {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-pay-method-main .check__block-pay-method-inside .check__pay-method-block {
+  margin-bottom: 20px;
+  border-radius: 3px;
+  border: 1px solid #EAEAEA;
+  width: 100%;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-pay-method-main .check__block-pay-method-inside .check__pay-method-block .check__block-first-method-pay {
+  display: flex;
+  padding: 13px 15px;
+  flex-direction: row;
+  align-items: center;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-pay-method-main .check__block-pay-method-inside .check__pay-method-block .check__block-first-method-pay .check__method-pay-select-first {
+  margin-right: 20px;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-pay-method-main .check__block-pay-method-inside .check__pay-method-block .check__block-first-method-pay .check__method-pay-select-first:hover {
+  cursor: pointer;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-pay-method-main .check__block-pay-method-inside .check__pay-method-block-second {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 3px;
+  border: 1px solid #EAEAEA;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 17px 15px;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-pay-method-main .check__block-pay-method-inside .check__pay-method-block-second .check__name-pay-method-second {
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-pay-method-main .check__block-pay-method-inside .check__pay-method-block-second .check__mathod-pay-select-second {
+  margin-right: 20px;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-pay-method-main .check__block-pay-method-inside .check__pay-method-block-second .check__mathod-pay-select-second:hover {
+  cursor: pointer;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-pay-method-main .check__block-pay-method-inside .check__pay-method-block-third {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 3px;
+  padding: 17px 15px;
+  border: 1px solid #EAEAEA;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-pay-method-main .check__block-pay-method-inside .check__pay-method-block-third .check__name-pay-method-third {
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-pay-method-main .check__block-pay-method-inside .check__pay-method-block-third .check__mathod-pay-select-third {
+  margin-right: 20px;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-pay-method-main .check__block-pay-method-inside .check__pay-method-block-third .check__mathod-pay-select-third:hover {
+  cursor: pointer;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-pay-method-main .check__block-button-give-order {
+  width: 100%;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-pay-method-main .check__block-button-give-order .check__button-give-order {
+  color: #FFF;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  width: 100%;
+  font-weight: 700;
+  line-height: 16px;
+  border-radius: 3px;
+  background: #46A358;
+  padding: 15px 25px;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-pay-method-main .check__block-button-give-order .check__button-give-order:hover {
+  cursor: pointer;
+  background: #fff;
+  color: #46A358;
+  border: 1px solid #46A358;
+  transition: all 0.3s ease-in-out;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-modal-mail {
+  position: fixed;
+  box-shadow: rgba(34, 34, 34, 0.75) 4px 4px 8px 10000px;
+  top: 2%;
+  width: 650px;
+  background: rgb(255, 255, 255);
+  left: 35%;
+  border: 1px solid #000;
+  border-radius: 10px;
+  z-index: 150;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-modal-mail .check__block-header-info .check__block-received {
+  display: flex;
+  padding: 25px 0px;
+  flex-direction: column;
+  background: rgba(70, 163, 88, 0.06);
+  align-items: center;
+  border-bottom: 1px solid rgba(70, 163, 88, 0.06);
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-modal-mail .check__block-header-info .check__block-received .check__image-block {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 25px;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-modal-mail .check__block-header-info .check__block-received .check__description-modal-block {
+  color: #727272;
+  text-align: center;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-modal-mail .check__block-order-details {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 50px;
+  justify-content: flex-start;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-modal-mail .check__block-order-details .check__header-order-details {
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  margin-bottom: 25px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  line-height: 16px; /* 106.667% */
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-modal-mail .check__block-order-details .check__block-order-details-product .check__block-order-details-name {
+  display: flex;
+  padding-bottom: 25px;
+  border-bottom: 1px solid rgba(70, 163, 88, 0.5);
+  flex-direction: row;
+  justify-content: space-between;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-modal-mail .check__block-order-details .check__block-order-details-product .check__block-order-details-name .check__block-order-details-products {
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 16px;
+  width: 45%;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 100% */
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-modal-mail .check__block-order-details .check__block-order-details-product .check__block-order-details-name .check__block-order-details-quantity {
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  width: 10%;
+  line-height: 16px;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-modal-mail .check__block-order-details .check__block-order-details-product .check__block-order-details-name .check__block-order-details-subtotal {
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  width: 21%;
+  font-weight: 500;
+  line-height: 16px;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-modal-mail .check__block-order-details .check__block-main-items-inside {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px 10px 0px;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-modal-mail .check__block-order-details .check__block-main-items-inside:not(:last-child) {
+  margin-bottom: 15px;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-modal-mail .check__block-order-details .check__block-main-items-inside .check__block-image-description {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-modal-mail .check__block-order-details .check__block-main-items-inside .check__block-image-description .check__item-image {
+  width: 110px;
+  height: 110px;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-modal-mail .check__block-all-price-product {
+  margin: 0px 50px 35px;
+  /* width: 50%; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-bottom: 35px;
+  border-bottom: 1px solid rgba(70, 163, 88, 0.5);
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-modal-mail .check__block-all-price-product .check__block-shipping-item {
+  display: flex;
+  flex-direction: row;
+  width: 56%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 35px;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-modal-mail .check__block-all-price-product .check__block-shipping-item .check__shipping-name {
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-modal-mail .check__block-all-price-product .check__block-shipping-item .check__shipping-product-count-price {
+  color: #3D3D3D;
+  text-align: right;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 88.889% */
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-modal-mail .check__block-all-price-product .check__block-total-price-product {
+  display: flex;
+  flex-direction: row;
+  width: 56%;
+  justify-content: space-between;
+  align-items: center;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-modal-mail .check__block-all-price-product .check__block-total-price-product .check__name-block-product {
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 100% */
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-modal-mail .check__block-all-price-product .check__block-total-price-product .check__count-price-block-product {
+  color: #46A358;
+  text-align: right;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-modal-mail .check__block-footer-description-order {
+  margin-bottom: 50px;
+  padding: 0px 50px;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-modal-mail .check__block-footer-description-order .check__description-footer-order {
+  color: #727272;
+  text-align: center;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 157.143% */
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-modal-mail .check__button-give-track-code {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-modal-mail .check__button-give-track-code .check__button-track-code {
+  color: #FFF;
+  padding: 20px 25px;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  border-radius: 5px;
+  background: #46A358;
+  line-height: 16px;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-modal-mail .check__close-button-modal {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-info-order {
+  margin: 20px 0px 30px 0px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(70, 163, 88, 0.2);
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-info-order .check__block-list-box {
+  display: flex;
+  padding: 0px 50px;
+  flex-direction: row;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-info-order .check__block-list-box .check__block-list-item-order-number {
+  width: 27%;
+  border-right: 1px solid rgba(70, 163, 88, 0.2);
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-info-order .check__block-list-box .check__block-list-item-order-number .check__block-list-item-order-number-inside .check__header-list-item-number {
+  color: #727272;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  margin-bottom: 10px;
+  font-weight: 400;
+  line-height: 16px; /* 114.286% */
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-info-order .check__block-list-box .check__block-list-item-order-number .check__block-list-item-order-number-inside .check__description-order-number {
+  color: #727272;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 106.667% */
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-info-order .check__block-list-box .check__block-list-item-date {
+  width: 23%;
+  border-right: 1px solid rgba(70, 163, 88, 0.2);
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-info-order .check__block-list-box .check__block-list-item-date .check__block-list-item-date-inside .check__header-list-item-date {
+  color: #727272;
+  font-family: Cera Pro;
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-info-order .check__block-list-box .check__block-list-item-date .check__block-list-item-date-inside .check__description-date {
+  color: #727272;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-info-order .check__block-list-box .check__block-list-item-total {
+  width: 18%;
+  border-right: 1px solid rgba(70, 163, 88, 0.2);
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-info-order .check__block-list-box .check__block-list-item-total .check__block-list-item-inside-total .check__header-list-item-total {
+  color: #727272;
+  font-family: Cera Pro;
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-info-order .check__block-list-box .check__block-list-item-total .check__block-list-item-inside-total .check__description-total {
+  color: #727272;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-info-order .check__block-list-box .check__block-list-item-payment-method .check__block-list-item-inside-payment-method .check__header-list-item-payment-method {
+  color: #727272;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  margin-bottom: 10px;
+  font-weight: 400;
+  line-height: 16px;
+}
+.check__form-items .check__block-main .check__block-main-order .check__block-info-order .check__block-list-box .check__block-list-item-payment-method .check__block-list-item-inside-payment-method .check__description-payment-method {
+  color: #727272;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+}
+.check__form-items .check__block-main .check__block-pay {
+  margin-bottom: 60px;
+}
+.check__form-items .check__block-main .check__block-pay .check__block-quest-coupon-had {
+  margin-bottom: 30px;
+}
+.check__form-items .check__block-main .check__block-pay .check__block-quest-coupon-had .check__pay-description-coupon {
+  color: #3D3D3D;
+  text-align: right;
+  font-family: Cera Pro;
+  font-size: 16px;
+  text-align: end;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+.check__form-items .check__block-main .check__block-pay .check__block-quest-coupon-had .check__pay-description-coupon span {
+  color: #46A358;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+.check__form-items .check__block-main .check__block-pay .check__main-block-pay-statistics .check__block-subtotal {
+  display: flex;
+  margin-bottom: 25px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.check__form-items .check__block-main .check__block-pay .check__main-block-pay-statistics .check__block-subtotal .check__header-subtotal-item {
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+.check__form-items .check__block-main .check__block-pay .check__main-block-pay-statistics .check__block-subtotal .check__description-cost-item {
+  color: #3D3D3D;
+  text-align: right;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+.check__form-items .check__block-main .check__block-pay .check__main-block-pay-statistics .check__block-coupon-discont {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 25px;
+  justify-content: space-between;
+  align-items: center;
+}
+.check__form-items .check__block-main .check__block-pay .check__main-block-pay-statistics .check__block-coupon-discont .check__header-coupon-discont-item {
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+.check__form-items .check__block-main .check__block-pay .check__main-block-pay-statistics .check__block-coupon-discont .check__description-coupon-discont-item {
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+.check__form-items .check__block-main .check__block-pay .check__main-block-pay-statistics .check__block-shipping {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+.check__form-items .check__block-main .check__block-pay .check__main-block-pay-statistics .check__block-shipping .check__header-shipping-item {
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+.check__form-items .check__block-main .check__block-pay .check__main-block-pay-statistics .check__block-shipping .check__description-shipping-item {
+  color: #3D3D3D;
+  text-align: right;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+.check__form-items .check__block-main .check__block-pay .check__shipping-charge-block {
+  padding-bottom: 25px;
+  margin-bottom: 35px;
+  border-bottom: 1px solid rgba(70, 163, 88, 0.5);
+}
+.check__form-items .check__block-main .check__block-pay .check__shipping-charge-block .check__shipping-charge-description {
+  color: #46A358;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  text-align: end;
+  font-weight: 400;
+  line-height: 16px;
+}
+.check__form-items .check__block-main .check__block-pay .check__block-total-price-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.check__form-items .check__block-main .check__block-pay .check__block-total-price-items .check__header-price-item {
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 100% */
+}
+.check__form-items .check__block-main .check__block-pay .check__block-total-price-items .check__item-price-count {
+  color: #46A358;
+  text-align: right;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 88.889% */
+}
+
+.check__list-item {
+  margin-bottom: 35px;
+}
+
+/************************************** Form ****************************************/
+.check__form-danger {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+}
+.check__form-danger img {
+  margin-right: 5px;
+}
+.check__form-danger p {
+  color: red;
+  /* margin-bottom: 10px; */
+  /* color: #3D3D3D; */
+  font-family: Cera Pro;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: "";
+}
+
+.red {
+  margin-top: 40px;
+  overflow-y: scroll;
+  height: 160px;
+}
+
+.red__second {
+  position: fixed;
+  /* margin-bottom: 20px; */
+  width: 28.6%;
+  z-index: 200;
+  background: #fff;
+}
+
+.second__red {
+  margin-top: 60px !important;
+}
+
+input[type=radio] {
+  accent-color: #46A358;
+}/*# sourceMappingURL=check.css.map */

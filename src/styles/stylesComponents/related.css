@@ -1,0 +1,78 @@
+.related__main {
+  margin-bottom: 65px;
+}
+.related__main .related__header {
+  color: #46A358;
+  font-family: Cera Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  margin-bottom: 60px;
+}
+.related__main .related__product-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.related__main .related__product-block .related__product-inside {
+  width: 100%;
+  /* box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px; */
+  padding: 15px 25px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  border: 1px solid #ddd;
+}
+.related__main .related__product-block .related__product-inside:not(:last-child) {
+  margin-right: 30px;
+}
+.related__main .related__product-block .related__product-inside .related__product-block-img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+.related__main .related__product-block .related__product-inside .related__product-block-img .related__product-image {
+  width: 300px;
+  height: 255px;
+}
+@media (max-width: 1300px) {
+  .related__main .related__product-block .related__product-inside .related__product-block-img .related__product-image {
+    width: 175px;
+    height: 175px;
+  }
+}
+.related__main .related__product-block .related__product-inside .related__product-header {
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  margin-bottom: 10px;
+}
+.related__main .related__product-block .related__product-inside .related__product-description {
+  color: #46A358;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.swiper {
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.swiper .swiper-wrapper {
+  width: 100%;
+}
+.swiper .swiper-wrapper .swiper-slide {
+  display: flex;
+  flex-direction: row;
+}
+.swiper .swiper-wrapper .swiper-slide .recently__block-items {
+  width: 18.1%;
+}/*# sourceMappingURL=related.css.map */

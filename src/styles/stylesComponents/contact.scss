@@ -1,0 +1,100 @@
+/********************************************* CONTACT ***********************************/
+$primary_color: #46A358;
+$second_color: #727272;
+$third_color: #3D3D3D;
+
+
+.contact__block {
+    background: rgba(70, 163, 88, 0.10);
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 30px;
+    @media(max-width: 1100px) {
+      background: rgba(70, 163, 88, 0.1);
+      margin-bottom: 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: normal;
+      padding: 30px 30px;
+    }
+    .contact__block-logo-footer-mobile {
+      @media(max-width: 1100px) {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 45px;
+      } 
+      img {
+        width: 200px;
+        margin-right: 10px;
+        height: 20px;
+        @media(max-width: 1100px) {
+          width: 400px;
+          margin-right: 10px;
+          height: 55px;
+        }
+      }
+    }
+    .contact__block-adress {
+      display: flex;
+      /* flex-direction: column; */
+      /* width: 20%; */
+      align-items: center;
+      .contact__description-adress {
+        color: $third_color;
+        font-family: Cera Pro;
+        font-size: 16px;
+        font-style: normal;
+        width: 73%;
+        font-weight: 400;
+        line-height: 26px; /* 157.143% */
+        @media(max-width: 1100px) {
+          width: 100%;
+        }
+      }
+    }
+    .contact__block-mail {
+      display: flex;
+      /* flex-direction: column; */
+      /* width: 20%; */
+      align-items: center;
+      img {
+        width: 20px;
+        margin-right: 10px;
+        height: 20px;
+      }
+      .contact__mail-adress {
+        color: $third_color;
+        font-family: Cera Pro;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 157.143% */
+      }
+    }
+    .contact__block-phone-number {
+      display: flex;
+      /* flex-direction: column; */
+      /* width: 20%; */
+      align-items: center;
+      img {
+        width: 20px;
+        margin-right: 10px;
+        height: 20px;
+      }
+      .contact__number-description {
+        color: $third_color;
+        font-family: Cera Pro;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px; /* 157.143% */
+      }
+    }
+  }
+  .contact__location {
+    margin-right: 10px;
+  }

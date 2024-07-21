@@ -1,0 +1,423 @@
+.form__login-block {
+    box-shadow: rgba(34, 34, 34, 0.75) 4px 4px 8px 10000px;
+    position: fixed;
+    left: 39%;
+    right: 39%;
+    top: 11%;
+    background-color: #fff;
+    z-index: 150;
+    width: 500px;
+    border: 1px solid;
+    padding: 0px 70px;
+    border-radius: 5px;
+    border: 1px solid #EAEAEA;
+    padding: 0px 70px 50px 70px;
+    @media(max-width: 1430px) {
+        left: 34%;
+    }
+    @media(max-width: 1130px) {
+        left: 30%;
+    }
+    @media(max-width: 950px) {
+        left: 25%;
+        padding: 0px 30px 50px 30px;
+    }
+    @media(max-width: 830px) {
+        width: 400px;
+    }
+    @media(max-width: 650px) {
+        left: 15%;
+    }
+    @media(max-width: 500px) {
+        left: 9%;
+    }
+    @media(max-width: 470px) {
+        width: 84%;
+    }
+    .form__block-header-name {
+        display: flex;
+        margin: 50px 0px;
+        flex-direction: row;
+        justify-content: center;
+        .form__header-name-login {
+            color: #46A358;
+            font-family: Cera Pro;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: 16px;
+            padding-right: 15px;
+        }
+        .form__header-name-register {
+            color: #3D3D3D;
+            font-family: Cera Pro;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            padding-left: 15px;
+            border-left: 1px solid #3d3d3d;
+            line-height: 16px;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+    .form__block-main-fill-field {
+        form {
+            .form__block-register-main {
+                margin-bottom: 35px;
+                .form__block-register-inside {
+                    display: flex;
+                    flex-direction: column;
+                    .form__input-fill-ield {
+                        color: #3D3D3D;
+                        font-family: Cera Pro;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        padding: 15px;
+                        border-radius: 5px;
+                        border: 1px solid #EAEAEA;
+                        margin-bottom: 10px;
+                        line-height: 16px; 
+                        &::placeholder {
+                            color: #A5A5A5;
+                            font-family: Cera Pro;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 16px; /* 114.286% */
+                        }
+                        &:not(:last-child) {
+                            margin-bottom: 20px;
+                        }
+                    }
+                    .form__button-succes {
+                        margin-top: 45px;
+                        padding: 17px;
+                        color: #FFF;
+                        font-family: Cera Pro;
+                        font-size: 18px;
+                        border-radius: 5px;
+                        background: #46A358;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 16px; /* 100% */
+                        &:hover {
+                            cursor: pointer;
+                            color: #46A358;
+                            outline: 1px solid currentColor;
+                            background-color: #fff;
+                            transition: all .3s ease-in-out;
+                        }
+                    }
+                }
+            }
+        }
+        .form__description-name-fill-field {
+            color: #3D3D3D;
+            text-align: center;
+            margin-bottom: 15px;
+            font-family: Cera Pro;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 16px; 
+            @media(max-width: 950px) {
+                text-align: start;
+            }
+        }
+        form {
+            .form__block-field {
+                display: flex;
+                margin-bottom: 20px;
+                flex-direction: column;
+                    .form__first-input {
+                        color: #3D3D3D;
+                        font-family: Cera Pro;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 400;
+                        padding: 15px;
+                        border-radius: 5px;
+                        border: 1px solid #EAEAEA;
+                        margin-bottom: 10px;
+                        line-height: 16px; 
+                        &::placeholder {
+                            color: #A5A5A5;
+                            font-family: Cera Pro;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 16px;
+                        }
+                    }
+                    .form__input-block-second {
+                        position: relative;
+                        width: 100%;
+                        .form__second-input {
+                            color: #3D3D3D;
+                            font-family: Cera Pro;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 400;
+                            width: 100%;
+                            line-height: 16px; 
+                            padding: 15px;
+                            border-radius: 5px;
+                            border: 1px solid #EAEAEA;
+                        }
+                        .lucide-eye {
+                            position: absolute;
+                            right: 16px;
+                            top: 26%;
+                        }
+                        .lucide-eye-off {
+                            position: absolute;
+                            right: 16px;
+                            top: 26%;
+                        }
+                    }
+                }
+            .form__block-forgot-password-help {
+                .form__description-name-help {
+                    color: #46A358;
+                    font-family: Cera Pro;
+                    font-size: 16px;
+                    font-style: normal;
+                    text-align: end;
+                    margin-bottom: 35px;
+                    font-weight: 400;
+                    line-height: 16px; 
+                }
+            }
+            .form__succecess-button-form {
+                color: #FFF;
+                font-family: Cera Pro;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 16px; /* 100% */
+                border-radius: 5px;
+                width: 100%;
+                margin-bottom: 50px;
+                padding: 17px;
+                background: #46A358;
+                &:hover {
+                    cursor: pointer;
+                    color: #46A358;
+                    outline: 1px solid currentColor;
+                    background-color: #fff;
+                    transition: all .3s ease-in-out;
+                }
+            }
+            .form__login-in-with-options {
+                .form__block-name-description-option {
+                    margin-bottom: 35px;
+                    position: relative;
+                    display: flex;
+                    justify-content: center;
+                    hr {
+                        height: 2px;
+                        position: absolute;
+                        top: 8px;
+                        background: #EAEAEA;
+                        width: 100%;
+                        background-color: #EAEAEA;
+                    }
+                    .form__block-name-description-options {
+                        z-index: 200;
+                        /* display: flex; */
+                        position: relative;
+                        text-align: center;
+                        /* width: 70%; */
+                        padding: 0px 10px;
+                        background: #fff;
+                        /* width: min-content;*/
+                    }
+                }
+                .form__block-mobile-for {
+                    @media(max-width: 950px) {
+                        display: flex;
+                        flex-direction: row;
+                    } 
+                    @media(max-width: 576px) {
+                        flex-direction: column;
+                    }
+                    .form__block-name-with-google {
+                        /* display: flex; */
+                        margin-bottom: 20px;
+                        border-radius: 5px;
+                        border: 1px solid #EAEAEA;
+                        padding: 12px;
+                        &:hover {
+                            cursor: pointer;
+                        }
+                        @media(max-width: 950px) {
+                          margin-bottom: 0px;
+                        } 
+                        @media(max-width: 576px) {
+                            border-radius: 10px;
+                            background: #4086F4;
+                            margin-bottom: 15px;
+                        }
+                        .form__button-sign-google {
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+                            width: 100%;
+                            align-items: center;
+                            .form__image-google {
+                                margin-right: 20px;
+                                @media(max-width: 470px) {
+                                    margin: 0px;
+                                }
+                            }
+                            .form__description-button-google {
+                                color: #727272;
+                                text-align: center;
+                                font-family: Cera Pro;
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: 16px;
+                                @media(max-width: 470px) {
+                                    display: none;
+                                }
+                                @media(max-width: 576px) {
+                                    color: #fff
+                                }
+                            }
+                        }
+                    }
+                    .form__block-name-with-facebook {
+                        border-radius: 5px;
+                        border: 1px solid #EAEAEA;
+                        padding: 12px;
+                        &:hover {
+                            cursor: pointer;
+                        }
+                        @media(max-width: 576px) {
+                            border-radius: 10px;
+                            background: #3B5999;
+                        }
+                        .form__button-sign-facebook {
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: center;
+                            width: 100%;
+                            align-items: center;
+                            .form__image-facebook {
+                                margin-right: 20px;
+                                @media(max-width: 576px) {
+                                    g {
+                                        path {
+                                            fill: #fff
+                                        }
+                                    }
+                                }
+                                @media(max-width: 470px) {
+                                    margin: 0px;
+                                }
+                            }
+                            .form__description-button-facebook {
+                                color: #727272;
+                                text-align: center;
+                                font-family: Cera Pro;
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: 16px;
+                                @media(max-width: 470px) {
+                                    display: none;
+                                }
+                                @media(max-width: 576px) {
+                                    color: #fff;
+                                }
+                            }
+                        }
+                    }                    
+                }
+            }
+        }
+    }
+    .form__close-form-button {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        svg {
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}
+.form__header-name-login-disabled {
+    color: #3D3D3D;
+    font-family: Cera Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    padding-right: 15px;   
+    &:hover {
+        cursor: pointer;
+    }
+}
+.form__header-name-register-active {
+    color: #46A358;
+    font-family: Cera Pro;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    padding-left: 15px;
+    border-left: 1px solid #3d3d3d;
+    line-height: 16px;
+}
+.form__input-block-password-write {
+    position: relative;
+    .form__input-fill-ield {
+        width: 100%;
+        color: #3D3D3D;
+        font-family: Cera Pro;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        padding: 15px;
+        border-radius: 5px;
+        border: 1px solid #EAEAEA;
+        margin-bottom: 10px;
+        line-height: 16px; 
+        &::placeholder {
+            color: #A5A5A5;
+            font-family: Cera Pro;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 16px; /* 114.286% */
+        }
+        &:not(:last-child) {
+            margin-bottom: 20px;
+        }
+    }
+    .lucide-eye {
+        position: absolute;
+        right: 16px;
+        top: 21%;
+    }
+    .lucide-eye-off {
+        position: absolute;
+        right: 16px;
+        top: 21%;
+    }
+}
+.lucide-eye-off {
+    &:hover {
+        cursor: pointer;
+    }
+}
+.lucide-eye {
+    &:hover {
+        cursor: pointer;
+    }
+}

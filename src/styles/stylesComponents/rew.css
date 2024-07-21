@@ -1,0 +1,39 @@
+.rew__block .rew__main-header {
+  color: #46A358;
+  font-family: Cera Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  margin-bottom: 60px;
+}
+.rew__block .rew__block-videos .rew__block-inside {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 90px;
+}
+.rew__block .rew__block-videos .rew__block-inside .rew__block-main-video-content {
+  width: 35%;
+}
+.rew__block .rew__block-videos .rew__block-inside .rew__block-description-videos {
+  width: 55%;
+}
+.rew__block .rew__block-videos .rew__block-inside .rew__block-description-videos .rew__block-rewiews-header {
+  color: #46A358;
+  font-family: Cera Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  margin-bottom: 60px;
+}
+.rew__block .rew__block-videos .rew__block-inside .rew__block-description-videos .rew__description-rewievs {
+  color: #727272;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}/*# sourceMappingURL=rew.css.map */

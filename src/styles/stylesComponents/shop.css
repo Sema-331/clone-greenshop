@@ -1,0 +1,14 @@
+.shop__main-block {
+  margin-top: 100px;
+}
+.shop__main-block .shop__lorem {
+  margin: 40px 0px;
+}
+.shop__main-block .shop__lorem .shop__lorem-description {
+  color: #727272;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}/*# sourceMappingURL=shop.css.map */

@@ -1,0 +1,98 @@
+/********************************************* CONTACT ***********************************/
+.contact__block {
+  background: rgba(70, 163, 88, 0.1);
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 30px;
+}
+@media (max-width: 1100px) {
+  .contact__block {
+    background: rgba(70, 163, 88, 0.1);
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: normal;
+    padding: 30px 30px;
+  }
+}
+@media (max-width: 1100px) {
+  .contact__block .contact__block-logo-footer-mobile {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 45px;
+  }
+}
+.contact__block .contact__block-logo-footer-mobile img {
+  width: 200px;
+  margin-right: 10px;
+  height: 20px;
+}
+@media (max-width: 1100px) {
+  .contact__block .contact__block-logo-footer-mobile img {
+    width: 400px;
+    margin-right: 10px;
+    height: 55px;
+  }
+}
+.contact__block .contact__block-adress {
+  display: flex;
+  /* flex-direction: column; */
+  /* width: 20%; */
+  align-items: center;
+}
+.contact__block .contact__block-adress .contact__description-adress {
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  width: 73%;
+  font-weight: 400;
+  line-height: 26px; /* 157.143% */
+}
+@media (max-width: 1100px) {
+  .contact__block .contact__block-adress .contact__description-adress {
+    width: 100%;
+  }
+}
+.contact__block .contact__block-mail {
+  display: flex;
+  /* flex-direction: column; */
+  /* width: 20%; */
+  align-items: center;
+}
+.contact__block .contact__block-mail img {
+  width: 20px;
+  margin-right: 10px;
+  height: 20px;
+}
+.contact__block .contact__block-mail .contact__mail-adress {
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 157.143% */
+}
+.contact__block .contact__block-phone-number {
+  display: flex;
+  /* flex-direction: column; */
+  /* width: 20%; */
+  align-items: center;
+}
+.contact__block .contact__block-phone-number img {
+  width: 20px;
+  margin-right: 10px;
+  height: 20px;
+}
+.contact__block .contact__block-phone-number .contact__number-description {
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 157.143% */
+}/*# sourceMappingURL=contact.css.map */

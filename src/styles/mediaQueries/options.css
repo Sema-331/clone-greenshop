@@ -1,0 +1,10 @@
+@media (max-width: 1250px) {
+  .options {
+    display: none;
+  }
+}
+@media (min-width: 1250px) {
+  .splide__slider-hide {
+    display: none;
+  }
+}/*# sourceMappingURL=options.css.map */

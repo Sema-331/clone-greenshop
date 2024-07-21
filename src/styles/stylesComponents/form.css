@@ -1,0 +1,334 @@
+.form__login-block {
+  box-shadow: rgba(34, 34, 34, 0.75) 4px 4px 8px 10000px;
+  position: fixed;
+  left: 39%;
+  top: 11%;
+  background-color: #fff;
+  z-index: 150;
+  width: 500px;
+  border: 1px solid;
+  padding: 0px 70px;
+  border-radius: 5px;
+  border: 1px solid #EAEAEA;
+  padding: 0px 70px 50px 70px;
+}
+.form__login-block .form__block-header-name {
+  display: flex;
+  margin: 50px 0px;
+  flex-direction: row;
+  justify-content: center;
+}
+.form__login-block .form__block-header-name .form__header-name-login {
+  color: #46A358;
+  font-family: Cera Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  padding-right: 15px;
+}
+.form__login-block .form__block-header-name .form__header-name-register {
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  padding-left: 15px;
+  border-left: 1px solid #3d3d3d;
+  line-height: 16px;
+}
+.form__login-block .form__block-main-fill-field form .form__block-register-main {
+  margin-bottom: 35px;
+}
+.form__login-block .form__block-main-fill-field form .form__block-register-main .form__block-register-inside {
+  display: flex;
+  flex-direction: column;
+}
+.form__login-block .form__block-main-fill-field form .form__block-register-main .form__block-register-inside .form__input-fill-ield {
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #EAEAEA;
+  margin-bottom: 10px;
+  line-height: 16px;
+}
+.form__login-block .form__block-main-fill-field form .form__block-register-main .form__block-register-inside .form__input-fill-ield::-moz-placeholder {
+  color: #A5A5A5;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 114.286% */
+}
+.form__login-block .form__block-main-fill-field form .form__block-register-main .form__block-register-inside .form__input-fill-ield::placeholder {
+  color: #A5A5A5;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 114.286% */
+}
+.form__login-block .form__block-main-fill-field form .form__block-register-main .form__block-register-inside .form__input-fill-ield:not(:last-child) {
+  margin-bottom: 20px;
+}
+.form__login-block .form__block-main-fill-field form .form__block-register-main .form__block-register-inside .form__button-succes {
+  margin-top: 45px;
+  padding: 17px;
+  color: #FFF;
+  font-family: Cera Pro;
+  font-size: 18px;
+  border-radius: 5px;
+  background: #46A358;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 100% */
+}
+.form__login-block .form__block-main-fill-field .form__description-name-fill-field {
+  color: #3D3D3D;
+  text-align: center;
+  margin-bottom: 15px;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+.form__login-block .form__block-main-fill-field form .form__block-field {
+  display: flex;
+  margin-bottom: 20px;
+  flex-direction: column;
+}
+.form__login-block .form__block-main-fill-field form .form__block-field .form__first-input {
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #EAEAEA;
+  margin-bottom: 10px;
+  line-height: 16px;
+}
+.form__login-block .form__block-main-fill-field form .form__block-field .form__first-input::-moz-placeholder {
+  color: #A5A5A5;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+.form__login-block .form__block-main-fill-field form .form__block-field .form__first-input::placeholder {
+  color: #A5A5A5;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+.form__login-block .form__block-main-fill-field form .form__block-field .form__input-block-second {
+  position: relative;
+  width: 100%;
+}
+.form__login-block .form__block-main-fill-field form .form__block-field .form__input-block-second .form__second-input {
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  width: 100%;
+  line-height: 16px;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #EAEAEA;
+}
+.form__login-block .form__block-main-fill-field form .form__block-field .form__input-block-second .lucide-eye {
+  position: absolute;
+  right: 16px;
+  top: 26%;
+}
+.form__login-block .form__block-main-fill-field form .form__block-field .form__input-block-second .lucide-eye-off {
+  position: absolute;
+  right: 16px;
+  top: 26%;
+}
+.form__login-block .form__block-main-fill-field form .form__block-forgot-password-help .form__description-name-help {
+  color: #46A358;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  text-align: end;
+  margin-bottom: 35px;
+  font-weight: 400;
+  line-height: 16px;
+}
+.form__login-block .form__block-main-fill-field form .form__succecess-button-form {
+  color: #FFF;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 100% */
+  border-radius: 5px;
+  width: 100%;
+  margin-bottom: 50px;
+  padding: 17px;
+  background: #46A358;
+}
+.form__login-block .form__block-main-fill-field form .form__succecess-button-form:hover {
+  cursor: pointer;
+  color: #46A358;
+  outline: 1px solid currentColor;
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.form__login-block .form__block-main-fill-field form .form__login-in-with-options .form__block-name-description-option {
+  margin-bottom: 35px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.form__login-block .form__block-main-fill-field form .form__login-in-with-options .form__block-name-description-option hr {
+  height: 2px;
+  position: absolute;
+  top: 8px;
+  background: #EAEAEA;
+  width: 100%;
+  background-color: #EAEAEA;
+}
+.form__login-block .form__block-main-fill-field form .form__login-in-with-options .form__block-name-description-option .form__block-name-description-options {
+  z-index: 200;
+  /* display: flex; */
+  position: relative;
+  text-align: center;
+  /* width: 70%; */
+  padding: 0px 10px;
+  background: #fff;
+  /* width: min-content;*/
+}
+.form__login-block .form__block-main-fill-field form .form__login-in-with-options .form__block-name-with-google {
+  /* display: flex; */
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #EAEAEA;
+  padding: 12px;
+}
+.form__login-block .form__block-main-fill-field form .form__login-in-with-options .form__block-name-with-google .form__button-sign-google {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+.form__login-block .form__block-main-fill-field form .form__login-in-with-options .form__block-name-with-google .form__button-sign-google .form__image-google {
+  margin-right: 20px;
+}
+.form__login-block .form__block-main-fill-field form .form__login-in-with-options .form__block-name-with-google .form__button-sign-google .form__description-button-google {
+  color: #727272;
+  text-align: center;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+.form__login-block .form__block-main-fill-field form .form__login-in-with-options .form__block-name-with-facebook {
+  border-radius: 5px;
+  border: 1px solid #EAEAEA;
+  padding: 12px;
+}
+.form__login-block .form__block-main-fill-field form .form__login-in-with-options .form__block-name-with-facebook .form__button-sign-facebook {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+.form__login-block .form__block-main-fill-field form .form__login-in-with-options .form__block-name-with-facebook .form__button-sign-facebook .form__image-facebook {
+  margin-right: 20px;
+}
+.form__login-block .form__block-main-fill-field form .form__login-in-with-options .form__block-name-with-facebook .form__button-sign-facebook .form__description-button-facebook {
+  color: #727272;
+  text-align: center;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+.form__login-block .form__close-form-button {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.form__header-name-login-disabled {
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  padding-right: 15px;
+}
+
+.form__header-name-register-active {
+  color: #46A358;
+  font-family: Cera Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  padding-left: 15px;
+  border-left: 1px solid #3d3d3d;
+  line-height: 16px;
+}
+
+.form__input-block-password-write {
+  position: relative;
+}
+.form__input-block-password-write .form__input-fill-ield {
+  width: 100%;
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #EAEAEA;
+  margin-bottom: 10px;
+  line-height: 16px;
+}
+.form__input-block-password-write .form__input-fill-ield::-moz-placeholder {
+  color: #A5A5A5;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 114.286% */
+}
+.form__input-block-password-write .form__input-fill-ield::placeholder {
+  color: #A5A5A5;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 114.286% */
+}
+.form__input-block-password-write .form__input-fill-ield:not(:last-child) {
+  margin-bottom: 20px;
+}
+.form__input-block-password-write .lucide-eye {
+  position: absolute;
+  right: 16px;
+  top: 21%;
+}
+.form__input-block-password-write .lucide-eye-off {
+  position: absolute;
+  right: 16px;
+  top: 21%;
+}/*# sourceMappingURL=form.css.map */

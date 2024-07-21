@@ -1,0 +1,122 @@
+.related__main {
+    // margin-bottom: 65px;
+    .related__header {
+        color: #46A358;
+        font-family: Cera Pro;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 16px;
+        margin-bottom: 25px;
+    }
+    .related__product-block {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        .splide {
+            .splide__arrows {
+                .splide__arrow--prev {
+                    left: -2em;
+                    background: #fff;
+                }
+                .splide__arrow--next {
+                    right: -2em;
+                    background: #fff;
+                }
+            }
+        }
+        .related__product-inside {
+            width: 100%;
+            /* box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px; */
+            padding: 15px 25px;
+            border-radius: 15px;
+            display: flex;
+            flex-direction: column;
+            /* align-items: center; */
+            border: 1px solid #ddd;
+            &:not(:last-child) {
+                margin-right: 30px;
+            }
+            .related__product-block-img {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 35px;
+                .related__product-image {
+                    width: 255px;
+                    height: 255px;
+                    @media(max-width: 1300px) {
+                        width: 175px;
+                        height: 175px;
+                    }
+                }
+            }
+            .related__product-header {
+                color: #3D3D3D;
+                font-family: Cera Pro;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 16px;
+                margin-bottom: 10px;
+            }
+            .related__product-description {
+                color: #46A358;
+                font-family: Cera Pro;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 16px;
+            }
+        }
+    }
+}
+.swiper {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    .swiper-wrapper {
+        width: 100%;
+        .swiper-slide {
+            display: flex;
+            flex-direction: row;
+            .recently__block-items {
+                width: 18.1%;
+            }
+        }
+    }
+}
+
+.related__product-block {
+    margin-bottom: 70px;
+    .splide {
+        .splide__arrows {
+            .splide__arrow--next {
+                display: none;
+            }
+            .splide__arrow--prev {
+                display: none;
+            }
+        }
+        .splide__pagination {
+            display: none !important; 
+        }
+    }
+}
+.related__product-block-active {
+    margin-bottom: 70px;
+    .splide {
+        .splide__arrows {
+            .splide__arrow--prev {
+                left: -1em;
+                background: #fff;
+            }
+            .splide__arrow--next {
+                right: -1em;
+                background: #fff;
+            }
+        }
+        .splide__pagination {
+            display: none !important;
+        }
+    }
+}

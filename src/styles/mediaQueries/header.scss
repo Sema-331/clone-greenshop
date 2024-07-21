@@ -1,0 +1,219 @@
+@media(max-width: 950px) {
+    .header__block-navigation {
+        display: none;
+    }
+}
+@media(min-width: 950px) {
+    .header__burger-block {
+        display: none;
+    }
+}
+@media(max-width: 576px) {
+    .header__block-sign-in {
+        margin-right: 15px;
+    }
+}
+
+/*******************************MOBILE 480PX **************************/
+
+
+//@media(max-width: 480px) {
+//    .header .header__main-block {
+//        display: none;
+//    }
+//}
+//@media(min-width: 480px) {
+//    .header__mobile-version {
+//        display: none;
+//    }
+//}
+
+/************************************** < 700px ***************************/
+@media(min-width: 576px) {
+    .burger__block-main {
+        .burger__block-find-item {
+            display: none;
+            .burger__find-field {
+                display: none;
+            }
+        }
+        .header__burger-block {
+            display: flex;
+            align-items: center;
+            .header__burger-menu {
+            }
+        }
+    }
+}
+
+@media(max-width: 576px) {
+    .header__block-icons-person {
+        display: none;
+    }
+}
+@media(max-width: 576px) {
+    .header__block-logo {
+        display: none;
+    }
+}
+@media(max-width: 576px) {
+    .header__block-options {
+        width: 100%;
+    }
+}
+@media(min-width: 576px) {
+    .header__burger-menu {
+        display: none;
+    }
+}
+@media(max-width: 576px) {
+    .burger__block-main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 9%;
+        .burger__block-find-item {
+            width: 93%;
+            .burger__find-field {
+                width: 100%;
+                border: 1px solid rgba(70, 163, 88, 0.2019607843);
+                padding: 10px 25px;
+                border-radius: 10px;
+                background: #F8F8F8;
+                //background-image: url('./../../image/findField.svg');
+                //background-position-y: center;
+                //background-position-x: 5%;
+                //background-repeat: no-repeat;
+                &::placeholder {
+                    color: #A5A5A5;
+                    font-family: Cera Pro;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 16px; /* 114.286% */
+                }
+            }
+        }
+        
+        .header__burger-block {
+            display: flex;
+            align-items: center;
+            background: #46A358;
+            border-radius: 10px;
+            width: 0%;
+            .header__burger-menu {
+                display: flex;
+                align-items: center;
+                background-color: #46A358;
+                border-radius: 10px;
+            }
+        }
+    }
+}
+@media(max-width: 576px) {
+    .burger__block-main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        .burger__block-find-item {
+            width: 93%;
+            position: relative;
+            @media(max-width: 470px) {
+                width: 88%;
+            }
+            @media(max-width: 380px) {
+                width: 84%;
+            }
+            .burger__find-field {
+                width: 98%;
+                border: 1px solid rgba(70, 163, 88, 0.2019607843);
+                padding: 10px 25px;
+                border-radius: 10px;
+                background: #F8F8F8;
+                //background-image: url('./../../image/findField.svg');
+                //background-position-y: center;
+                //background-position-x: 5%;
+                //background-repeat: no-repeat;
+                &::placeholder {
+                    color: #A5A5A5;
+                    font-family: Cera Pro;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 16px; /* 114.286% */
+                }
+            }
+        }
+        
+        .header__burger-block {
+            display: flex;
+            align-items: center;
+            background: #46A358;
+            border-radius: 10px;
+            width: 0%;
+            .header__burger-menu {
+                display: flex;
+                align-items: center;
+                background-color: #46A358;
+                border-radius: 10px;
+            }
+        }
+    }
+}
+/*@media(min-width: 950px) {
+    .header__burger-block {
+        display: none;
+    }
+}
+@media(max-width: 950px) {
+    .burger__block-main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    .burger__block-main .header__burger-block {
+        display: flex;
+        align-items: center;
+        background: #46A358;
+        border-radius: 10px;
+        width: 6%;
+    }
+}
+}*/
+@media(max-width: 576px) {
+    .burger__block-main {
+        .header__burger-block {
+            display: flex;
+            align-items: center;
+            background: #46A358;
+            border-radius: 10px;
+            width: 6%;
+            @media(max-width: 470px) {
+                width: 10%;
+            }
+            @media(max-width: 380px) {
+                width: 12%;
+            }
+            .header__burger-menu {
+                display: flex;
+                align-items: center;
+                background-color: #46A358;
+                border-radius: 10px;
+            }
+        }
+    }
+}
+@media (min-width: 950px) {
+    .menu {
+      display: none;
+    }
+  }
+  @media (min-width: 950px) {
+    .burger {
+      display: none;
+    }
+  }

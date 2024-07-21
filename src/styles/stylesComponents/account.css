@@ -1,0 +1,252 @@
+.account {
+  margin-top: 85px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.account .account__block-main {
+  display: flex;
+  width: 85%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.account .account__block-main .account__block-options-for-user {
+  width: 24%;
+  background: #FBFBFB;
+}
+.account .account__block-main .account__block-options-for-user .account__block-header-name-options {
+  margin-bottom: 35px;
+}
+.account .account__block-main .account__block-options-for-user .account__block-header-name-options .account__header-name {
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+}
+.account .account__block-main .account__block-options-for-user .account__block-option-user-inside .account__block-options .account__list-box-options .account__list-item-options {
+  padding: 0px 0px 0px 20px;
+}
+.account .account__block-main .account__block-options-for-user .account__block-option-user-inside .account__block-options .account__list-box-options .account__list-item-options:active {
+  border-left: 5px solid #46A358;
+  background: #fff;
+}
+.account .account__block-main .account__block-options-for-user .account__block-option-user-inside .account__block-options .account__list-box-options .account__list-item-options:hover {
+  border-left: 5px solid #46A358;
+  background: #fff;
+}
+.account .account__block-main .account__block-options-for-user .account__block-option-user-inside .account__block-options .account__list-box-options .account__list-item-options:not(:last-child) {
+  margin-bottom: 20px;
+}
+.account .account__block-main .account__block-options-for-user .account__block-option-user-inside .account__block-options .account__list-box-options .account__list-item-options:last-child {
+  padding-bottom: 20px;
+  margin-bottom: 35px;
+  border-bottom: 1px solid #46A358;
+}
+.account .account__block-main .account__block-options-for-user .account__block-option-user-inside .account__block-options .account__list-box-options .account__list-item-options .account__block-list-item-inside {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+}
+.account .account__block-main .account__block-options-for-user .account__block-option-user-inside .account__block-options .account__list-box-options .account__list-item-options .account__block-list-item-inside .account__count-order-product {
+  position: absolute;
+  top: 19%;
+  left: 4%;
+  background: red;
+  /* right: 11px; */
+  background: red;
+  padding: 1px 5px;
+  background: #46A358;
+  border-radius: 54%;
+  /* width: 10px; */
+  /* height: 10px; */
+  font-size: 13px;
+  color: #fff;
+}
+.account .account__block-main .account__block-options-for-user .account__block-option-user-inside .account__block-options .account__list-box-options .account__list-item-options .account__block-list-item-inside .account__icons-option {
+  margin-right: 15px;
+}
+.account .account__block-main .account__block-options-for-user .account__block-option-user-inside .account__block-options .account__list-box-options .account__list-item-options .account__block-list-item-inside .account__description--interface {
+  color: #727272;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 45px;
+}
+.account .account__block-main .account__block-options-for-user .account__block-option-user-inside .account__block-options .account__block-list-item-inside-log {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.account .account__block-main .account__block-options-for-user .account__block-option-user-inside .account__block-options .account__block-list-item-inside-log .account__icons-option-log {
+  margin-right: 15px;
+}
+.account .account__block-main .account__block-options-for-user .account__block-option-user-inside .account__block-options .account__block-list-item-inside-log .account__description--interface-login {
+  color: #46A358;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px; /* 100% */
+}
+.account .account__block-main .account__block-interface-user {
+  width: 60%;
+}
+.account .account__block-main .account__block-interface-user .account__block-header-name-form {
+  margin-bottom: 35px;
+}
+.account .account__block-main .account__block-interface-user .account__block-header-name-form .account__name-form {
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+.account .account__block-main .account__block-interface-user .account__block-info-user .account__form .account__block-personal-info {
+  margin-bottom: 40px;
+}
+.account .account__block-main .account__block-interface-user .account__block-info-user .account__form .account__block-personal-info .account__list-box-personal-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.account .account__block-main .account__block-interface-user .account__block-info-user .account__form .account__block-personal-info .account__list-box-personal-info .account__list-item-personfal-info {
+  width: 45%;
+  margin-bottom: 40px;
+}
+.account .account__block-main .account__block-interface-user .account__block-info-user .account__form .account__block-personal-info .account__list-box-personal-info .account__list-item-personfal-info .account__block-list-item-inside {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.account .account__block-main .account__block-interface-user .account__block-info-user .account__form .account__block-personal-info .account__list-box-personal-info .account__list-item-personfal-info .account__block-list-item-inside .account__name-input {
+  color: #3D3D3D;
+  margin-bottom: 15px;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px; /* 100% */
+}
+.account .account__block-main .account__block-interface-user .account__block-info-user .account__form .account__block-personal-info .account__list-box-personal-info .account__list-item-personfal-info .account__block-list-item-inside .account__name-input span {
+  color: red;
+}
+.account .account__block-main .account__block-interface-user .account__block-info-user .account__form .account__block-personal-info .account__list-box-personal-info .account__list-item-personfal-info .account__block-list-item-inside .account__fill-for-form-user {
+  border-radius: 3px;
+  border: 1px solid #EAEAEA;
+  padding: 17px 0px 14px 14px;
+}
+.account .account__block-main .account__block-interface-user .account__block-info-user .account__form .account__block-personal-info .account__list-box-personal-info .account__list-item-personfal-info .account__block-list-item-inside .account__fill-for-form-user::-moz-placeholder {
+  color: #A5A5A5;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 114.286% */
+}
+.account .account__block-main .account__block-interface-user .account__block-info-user .account__form .account__block-personal-info .account__list-box-personal-info .account__list-item-personfal-info .account__block-list-item-inside .account__fill-for-form-user::placeholder {
+  color: #A5A5A5;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 114.286% */
+}
+.account .account__block-main .account__block-interface-user .account__block-info-user .account__form .account__block-personal-info .account__list-box-personal-info .account__list-item-personfal-info .account__block-list-item-inside-change {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.account .account__block-main .account__block-interface-user .account__block-info-user .account__form .account__block-personal-info .account__list-box-personal-info .account__list-item-personfal-info .account__block-list-item-inside-change .account__block-svg-change-photo {
+  padding: 10px 11.5px;
+  border: 1px solid #eaeaea;
+  border-radius: 50%;
+}
+.account .account__block-main .account__block-interface-user .account__block-info-user .account__form .account__block-personal-info .account__list-box-personal-info .account__list-item-personfal-info .account__block-list-item-inside-change .account__button-save-change {
+  color: #FFF;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  border-radius: 5px;
+  padding: 15px 25px;
+  background: #46A358;
+}
+.account .account__block-main .account__block-interface-user .account__block-info-user .account__form .account__block-personal-info .account__list-box-personal-info .account__list-item-personfal-info .account__block-list-item-inside-change .account__button-remove-change {
+  color: #46A358;
+  border: 1px solid #46A358;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  border-radius: 5px;
+  padding: 15px 25px;
+  background: #fff;
+}
+.account .account__block-main .account__block-interface-user .account__block-info-user .account__form .account__block-password-change {
+  width: 45%;
+}
+.account .account__block-main .account__block-interface-user .account__block-info-user .account__form .account__block-password-change .account__block-name-password-change {
+  margin-bottom: 30px;
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+.account .account__block-main .account__block-interface-user .account__block-info-user .account__form .account__block-password-change .account__block-password-change-inside .account__block-fill-change-password {
+  margin-bottom: 40px;
+}
+.account .account__block-main .account__block-interface-user .account__block-info-user .account__form .account__block-password-change .account__block-password-change-inside .account__block-fill-change-password .account__name-for-fill {
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px; /* 100% */
+  margin-bottom: 15px;
+}
+.account .account__block-main .account__block-interface-user .account__block-info-user .account__form .account__block-password-change .account__block-password-change-inside .account__block-fill-change-password .account__fill-field {
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid #EAEAEA;
+  margin-top: 20px;
+  padding: 17px 0px 14px 14px;
+}
+.account .account__block-main .account__block-interface-user .account__block-info-user .account__form .account__block-password-change .account__block-password-change-inside .account__block-fill-change-password .account__fill-field::-moz-placeholder {
+  color: #A5A5A5;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 114.286% */
+}
+.account .account__block-main .account__block-interface-user .account__block-info-user .account__form .account__block-password-change .account__block-password-change-inside .account__block-fill-change-password .account__fill-field::placeholder {
+  color: #A5A5A5;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 114.286% */
+}
+.account .account__block-main .account__block-interface-user .account__block-info-user .account__form .account__block-password-change .account__button-save-changes {
+  color: #FFF;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 114.286% */
+  padding: 15px 25px;
+  background-color: #46A358;
+  border-radius: 5px;
+}/*# sourceMappingURL=account.css.map */

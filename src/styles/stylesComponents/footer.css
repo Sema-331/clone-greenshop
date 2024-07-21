@@ -1,0 +1,188 @@
+/************************************************** FOOTER ****************************/
+.footer__block-main .footer__block-list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid rgba(70, 163, 88, 0.2);
+}
+@media (max-width: 650px) {
+  .footer__block-main .footer__block-list-item {
+    padding: 0px;
+    padding-bottom: 20px;
+  }
+}
+.footer__block-main .footer__block-list-item .footer__list-item-block {
+  width: 18%;
+}
+@media (max-width: 650px) {
+  .footer__block-main .footer__block-list-item .footer__list-item-block {
+    width: 30.33%;
+  }
+}
+.footer__block-main .footer__block-list-item .footer__list-item-block .footer__block-inside-list-items {
+  display: flex;
+  flex-direction: column;
+}
+.footer__block-main .footer__block-list-item .footer__list-item-block .footer__block-inside-list-items .footer__list-item-header {
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 20px;
+  line-height: 16px; /* 88.889% */
+}
+@media (max-width: 790px) {
+  .footer__block-main .footer__block-list-item .footer__list-item-block .footer__block-inside-list-items .footer__list-item-header {
+    font-size: 16px;
+  }
+}
+@media (max-width: 650px) {
+  .footer__block-main .footer__block-list-item .footer__list-item-block .footer__block-inside-list-items .footer__list-item-header {
+    font-size: 14px;
+  }
+}
+.footer__block-main .footer__block-list-item .footer__list-item-block .footer__block-inside-list-items .footer__list-item-options {
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 214.286% */
+}
+@media (max-width: 790px) {
+  .footer__block-main .footer__block-list-item .footer__list-item-block .footer__block-inside-list-items .footer__list-item-options {
+    font-size: 14px;
+  }
+}
+@media (max-width: 650px) {
+  .footer__block-main .footer__block-list-item .footer__list-item-block .footer__block-inside-list-items .footer__list-item-options {
+    font-size: 13px;
+  }
+}
+.footer__block-main .footer__block-list-item .footer__list-item-block .footer__block-inside-list-items .footer__list-item-options:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  transition: all 0.3s ease-in-out;
+}
+.footer__block-main .footer__list-item-pay .footer__list-item-main-pay {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+@media (max-width: 790px) {
+  .footer__block-main .footer__list-item-pay .footer__list-item-main-pay {
+    padding-bottom: 35px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(70, 163, 88, 0.2);
+  }
+}
+.footer__block-main .footer__list-item-pay .footer__list-item-main-pay .footer__pay-header-top {
+  height: 41%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer__block-main .footer__list-item-pay .footer__list-item-main-pay .footer__pay-header-top .footer__pay-header {
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 88.889% */
+}
+@media (max-width: 790px) {
+  .footer__block-main .footer__list-item-pay .footer__list-item-main-pay .footer__pay-header-top .footer__pay-header {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+}
+.footer__block-main .footer__list-item-pay .footer__list-item-main-pay .footer__media {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 790px) {
+  .footer__block-main .footer__list-item-pay .footer__list-item-main-pay .footer__media {
+    display: block;
+  }
+}
+.footer__block-main .footer__list-item-pay .footer__list-item-main-pay .footer__media .footer__media-button {
+  border-radius: 4px;
+  border: 1px solid rgba(70, 163, 88, 0.2);
+  padding: 10px 12px;
+}
+.footer__block-main .footer__list-item-pay .footer__list-item-main-pay .footer__media .footer__media-button:hover {
+  cursor: pointer;
+  background: #46A358;
+}
+.footer__block-main .footer__list-item-pay .footer__list-item-main-pay .footer__media .footer__media-button:hover svg path {
+  fill: #fff;
+}
+.footer__block-main .footer__list-item-pay .footer__list-item-main-pay .footer__media .footer__media-button svg {
+  width: 16px;
+  height: 16px;
+}
+@media (max-width: 790px) {
+  .footer__block-main .footer__list-item-pay .footer__list-item-main-pay .footer__media .footer__media-button:not(:last-child) {
+    margin-right: 15px;
+  }
+}
+.footer__block-main .footer__list-item-pay .footer__list-item-main-pay .footer__options-pays {
+  height: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer__block-main .footer__list-item-pay .footer__list-item-main-pay .footer__options-pays .footer__options-pay-header {
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 88.889% */
+}
+@media (max-width: 790px) {
+  .footer__block-main .footer__list-item-pay .footer__list-item-main-pay .footer__options-pays .footer__options-pay-header {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+}
+.footer__block-main .footer__script {
+  text-align: center;
+}
+.footer__block-main .footer__sector-options-mobile {
+  width: 95.5%;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer__block-main .footer__sector-options-mobile .footer__block-login-mobile {
+  background: linear-gradient(180deg, rgba(70, 163, 88, 0.4) -16.92%, #46A358 109.23%);
+  transform: translateY(85px);
+  padding: 20px;
+  background: linear-gradient(180deg, rgba(70, 163, 88, 0.4) -16.92%, #46A358 109.23%);
+  border-radius: 50%;
+  width: -moz-min-content;
+  width: min-content;
+}
+.footer__block-main .footer__sector-options-mobile .footer__block-login-mobile svg {
+  width: 40px;
+  height: 36px;
+}
+.footer__block-main .footer__sector-options-mobile .footer__block-mobile-options {
+  height: 123px;
+}
+.footer__block-main .footer__sector-options-mobile .footer__block-mobile-options .footer__list-box-mobile-options {
+  width: 100%;
+  background: url("./../../image/Mobile__footer.png");
+  height: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}/*# sourceMappingURL=footer.css.map */

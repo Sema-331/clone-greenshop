@@ -1,0 +1,16 @@
+@media(max-width: 876px) {
+    .blog .blog__posts .blog__list-box .blog__list-item {
+        width: 45%;
+        margin-bottom: 60px;
+    }
+}
+@media(max-width: 700px) {
+    .blog .blog__posts .blog__list-box .blog__list-item {
+        width: 100%;
+    }
+  }
+@media(max-width: 632px) {
+    .blog .blog__posts .blog__list-box .blog__list-item {
+        width: 100%;
+    }
+}

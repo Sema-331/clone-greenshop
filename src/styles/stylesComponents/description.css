@@ -1,0 +1,129 @@
+.description__plants {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.description__plants .description__product-about {
+  margin-right: 50px;
+  color: #46A358;
+  padding-bottom: 15px;
+  border-bottom: 3px solid #46A358;
+  font-family: Cera Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+}
+.description__plants .description__product-about:hover {
+  cursor: pointer;
+}
+.description__plants .description__reviews {
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 20px;
+  padding-bottom: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+}
+.description__plants .description__reviews:hover {
+  cursor: pointer;
+}
+
+.description__block-first {
+  margin-bottom: 40px;
+}
+.description__block-first .description__block-first-item {
+  color: #727272;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.description__block-second {
+  margin-bottom: 40px;
+}
+.description__block-second .description__block-second-header {
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+.description__block-second .description__second-product {
+  color: #727272;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.description__block-third {
+  margin-bottom: 40px;
+}
+.description__block-third .description__block-third-header {
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+.description__block-third .description__third-product {
+  color: #727272;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.description__block-forth {
+  margin-bottom: 40px;
+}
+.description__block-forth .description__block-forth-header {
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+.description__block-forth .description__forth-product {
+  color: #727272;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.description__header-active {
+  color: #3D3D3D;
+  margin-right: 50px;
+  font-family: Cera Pro;
+  font-size: 20px;
+  padding-bottom: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.description__reviews-active {
+  color: #46A358;
+  padding-bottom: 15px;
+  border-bottom: 3px solid #46A358;
+  font-family: Cera Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+}/*# sourceMappingURL=description.css.map */

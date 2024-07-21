@@ -1,0 +1,166 @@
+.favourites__block-main {
+  margin: 50px 0px;
+  display: flex;
+  flex-direction: column;
+}
+.favourites__block-main .favourites__block-main-product-active {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  margin-bottom: 70px;
+}
+.favourites__block-main .favourites__block-main-product-active .favourites__block-toggle {
+  width: 15%;
+}
+.favourites__block-main .favourites__block-main-product-active .favourites__block-toggle .favourites__block-arrow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.favourites__block-main .favourites__block-main-product-active .favourites__block-toggle .favourites__block-arrow .favourites__header-block-item {
+  color: #46A358;
+  font-family: Cera Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  margin-right: 15px;
+}
+.favourites__block-main .favourites__block-main-product-active .favourites__block-toggle .favourites__item-toggle .favourites__block-category {
+  display: flex;
+  flex-direction: column;
+}
+.favourites__block-main .favourites__block-main-product-active .favourites__block-toggle .favourites__item-toggle .favourites__block-category .favourites__secondary-block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.favourites__block-main .favourites__block-main-product-active .favourites__block-toggle .favourites__item-toggle .favourites__block-category .favourites__secondary-block .favourites__head-category {
+  margin-right: 20px;
+}
+.favourites__block-main .favourites__block-main-product-active .favourites__block-product-active {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.favourites__block-main .favourites__block-main-product-active .favourites__block-product-active .favourites__header-product {
+  color: #46A358;
+  font-family: Cera Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  margin-bottom: 50px;
+  transform: translateY(4px);
+}
+.favourites__block-main .favourites__block-main-product-active .favourites__block-product-active .favourites__block-product-active-in .favourites__block-product-active-inside {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  padding: 10px 30px;
+  margin-bottom: 26px;
+}
+.favourites__block-main .favourites__block-main-product-active .favourites__block-product-active .favourites__block-product-active-in .favourites__block-product-active-inside:not(:last-child) {
+  margin-right: 26px;
+}
+.favourites__block-main .favourites__block-main-product-active .favourites__block-product-active .favourites__block-product-active-in .favourites__block-product-active-inside .favourites__block-product-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.favourites__block-main .favourites__block-main-product-active .favourites__block-product-active .favourites__block-product-active-in .favourites__block-product-active-inside .favourites__title {
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+.favourites__block-main .favourites__block-main-product-active .favourites__block-product-active .favourites__block-product-active-in .favourites__block-product-active-inside .favourites__price {
+  color: #46A358;
+  font-family: Cera Pro;
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+}
+.favourites__block-main .favourites__block-main-product-active .favourites__block-product-active .favourites__block-product-active-in .favourites__block-product-active-inside .favourites__sizes {
+  margin-bottom: 15px;
+}
+.favourites__block-main .favourites__block-main-product-active .favourites__block-product-active .favourites__block-product-active-in .favourites__block-product-active-inside .favourites__block-button-product {
+  display: flex;
+  justify-content: flex-start;
+}
+.favourites__block-main .favourites__block-main-product-active .favourites__block-product-active .favourites__block-product-active-in .favourites__block-product-active-inside .favourites__block-button-product .favourites__btn-add-basket {
+  color: #FFF;
+  font-family: Cera Pro;
+  font-size: 16px;
+  padding: 10px 15px;
+  background-color: #46A358;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 142.857% */
+  text-transform: uppercase;
+}
+.favourites__block-main .favourites__block-main-product-active .favourites__block-product-active .favourites__block-product-active-in .favourites__block-product-active-inside .favourites__button-remove-product {
+  width: -moz-min-content;
+  width: min-content;
+  position: absolute;
+  right: 4px;
+  top: 11px;
+}
+.favourites__block-main .favourites__block-main-product-active .favourites__block-product-active .favourites__block-product-active-in .favourites__block-product-active-inside .favourites__button-remove-product svg {
+  stroke: #46A358;
+}
+
+.favourites__block-image-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.favourites__block-image-description .favourites__block-description-hearts .favourites__head-block {
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  margin-bottom: 10px;
+}
+.favourites__block-image-description .favourites__block-description-hearts .favourites__description-block {
+  margin-bottom: 25px;
+  /* font-size: 14px; */
+  color: #727272;
+  font-family: Cera Pro;
+  /* margin-bottom: 64px; */
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.favourites__block-image-description .favourites__block-description-hearts .favourites__button-link-block {
+  color: #FFF;
+  font-family: Cera Pro;
+  background: #46A358;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+  padding: 12px 23px;
+  border-radius: 7px;
+}
+
+.null-item {
+  display: flex;
+  justify-content: center !important;
+}
+
+.splide {
+  background: #fff !important;
+}/*# sourceMappingURL=favourites.css.map */

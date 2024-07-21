@@ -1,0 +1,350 @@
+.order__main-block {
+  margin-top: 85px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.order__main-block .order__block-delivery-info {
+  display: flex;
+  width: 85%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.order__main-block .order__block-delivery-info .account__block-options-for-user {
+  width: 24%;
+  background: #FBFBFB;
+}
+.order__main-block .order__block-delivery-info .account__block-options-for-user .account__block-header-name-options {
+  margin-bottom: 35px;
+}
+.order__main-block .order__block-delivery-info .account__block-options-for-user .account__block-header-name-options .account__header-name {
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+}
+.order__main-block .order__block-delivery-info .account__block-options-for-user .account__block-option-user-inside .account__block-options .account__list-box-options .account__list-item-options {
+  padding: 0px 0px 0px 20px;
+}
+.order__main-block .order__block-delivery-info .account__block-options-for-user .account__block-option-user-inside .account__block-options .account__list-box-options .account__list-item-options:active {
+  border-left: 5px solid #46A358;
+  background: #fff;
+}
+.order__main-block .order__block-delivery-info .account__block-options-for-user .account__block-option-user-inside .account__block-options .account__list-box-options .account__list-item-options:hover {
+  border-left: 5px solid #46A358;
+  background: #fff;
+}
+.order__main-block .order__block-delivery-info .account__block-options-for-user .account__block-option-user-inside .account__block-options .account__list-box-options .account__list-item-options:not(:last-child) {
+  margin-bottom: 20px;
+}
+.order__main-block .order__block-delivery-info .account__block-options-for-user .account__block-option-user-inside .account__block-options .account__list-box-options .account__list-item-options:last-child {
+  padding-bottom: 20px;
+  margin-bottom: 35px;
+  border-bottom: 1px solid #46A358;
+}
+.order__main-block .order__block-delivery-info .account__block-options-for-user .account__block-option-user-inside .account__block-options .account__list-box-options .account__list-item-options .account__block-list-item-inside {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+}
+.order__main-block .order__block-delivery-info .account__block-options-for-user .account__block-option-user-inside .account__block-options .account__list-box-options .account__list-item-options .account__block-list-item-inside .account__count-order-product {
+  position: absolute;
+  top: 19%;
+  left: 4%;
+  background: red;
+  /* right: 11px; */
+  background: red;
+  padding: 1px 5px;
+  background: #46A358;
+  border-radius: 54%;
+  /* width: 10px; */
+  /* height: 10px; */
+  font-size: 13px;
+  color: #fff;
+}
+.order__main-block .order__block-delivery-info .account__block-options-for-user .account__block-option-user-inside .account__block-options .account__list-box-options .account__list-item-options .account__block-list-item-inside .account__icons-option {
+  margin-right: 15px;
+}
+.order__main-block .order__block-delivery-info .account__block-options-for-user .account__block-option-user-inside .account__block-options .account__list-box-options .account__list-item-options .account__block-list-item-inside .account__description--interface {
+  color: #727272;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 45px;
+}
+.order__main-block .order__block-delivery-info .account__block-options-for-user .account__block-option-user-inside .account__block-options .account__block-list-item-inside-log {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.order__main-block .order__block-delivery-info .account__block-options-for-user .account__block-option-user-inside .account__block-options .account__block-list-item-inside-log .account__icons-option-log {
+  margin-right: 15px;
+}
+.order__main-block .order__block-delivery-info .account__block-options-for-user .account__block-option-user-inside .account__block-options .account__block-list-item-inside-log .account__description--interface-login {
+  color: #46A358;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 15px; /* 100% */
+}
+.order__main-block .order__block-delivery-info .order__block-product-delivery {
+  width: 60%;
+}
+.order__main-block .order__block-delivery-info .order__delivery-block-none {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.order__main-block .order__block-delivery-info .order__delivery-block-none .order__block-description-tutorial-sale-item {
+  width: 50%;
+}
+.order__main-block .order__block-delivery-info .order__delivery-block-none .order__block-description-tutorial-sale-item .order__header-tutorial {
+  color: #3D3D3D;
+  text-align: center;
+  font-family: Cera Pro;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 29px;
+  margin-bottom: 25px;
+  text-align: start;
+}
+.order__main-block .order__block-delivery-info .order__delivery-block-none .order__block-description-tutorial-sale-item .order__block-list-box {
+  list-style-type: circle !important;
+}
+.order__main-block .order__block-delivery-info .order__delivery-block-none .order__block-description-tutorial-sale-item .order__block-list-box .order__block-list-item {
+  position: relative;
+}
+.order__main-block .order__block-delivery-info .order__delivery-block-none .order__block-description-tutorial-sale-item .order__block-list-box .order__block-list-item .order__block-list-item-inside {
+  display: flex;
+  flex-direction: row;
+}
+.order__main-block .order__block-delivery-info .order__delivery-block-none .order__block-description-tutorial-sale-item .order__block-list-box .order__block-list-item .order__block-list-item-inside span {
+  margin-right: 15px;
+}
+.order__main-block .order__block-delivery-info .order__delivery-block-none .order__block-description-tutorial-sale-item .order__block-list-box .order__block-list-item .order__block-list-item-inside .order__description-tutorial-for-sale {
+  color: #727272;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 157.143% */
+}
+.order__main-block .order__block-delivery-info .order__block-short-info-product {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.order__main-block .order__block-delivery-info .order__block-short-info-product .order__block-main-info-product {
+  margin-bottom: 45px;
+  width: 45%;
+  border-radius: 15px;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.24);
+}
+.order__main-block .order__block-delivery-info .order__block-short-info-product .order__block-main-info-product .order__block-list-item {
+  padding: 15px 20px;
+  position: relative;
+  /*}.order__total-values {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;*/
+}
+.order__main-block .order__block-delivery-info .order__block-short-info-product .order__block-main-info-product .order__block-list-item .order__block-content {
+  display: flex;
+  /* border-bottom: 1px solid red; */
+  border-bottom: 1px solid rgba(70, 163, 88, 0.4);
+  justify-content: space-between;
+  margin-bottom: 20px;
+  flex-direction: row;
+  align-items: center;
+}
+.order__main-block .order__block-delivery-info .order__block-short-info-product .order__block-main-info-product .order__block-list-item .order__block-content .order__product-image .order__image {
+  width: 150px;
+  height: 150px;
+}
+.order__main-block .order__block-delivery-info .order__block-short-info-product .order__block-main-info-product .order__block-list-item .order__block-content .order__block-description-info-product .order__header-name-product {
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  margin-bottom: 5px;
+}
+.order__main-block .order__block-delivery-info .order__block-short-info-product .order__block-main-info-product .order__block-list-item .order__block-content .order__block-description-info-product .order__block-sku {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.order__main-block .order__block-delivery-info .order__block-short-info-product .order__block-main-info-product .order__block-list-item .order__block-content .order__block-description-info-product .order__block-sku .order__sku-name {
+  margin-right: 15px;
+  color: #A5A5A5;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+.order__main-block .order__block-delivery-info .order__block-short-info-product .order__block-main-info-product .order__block-list-item .order__block-content .order__block-description-info-product .order__block-sku .order__sku-value {
+  color: #727272;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+.order__main-block .order__block-delivery-info .order__block-short-info-product .order__block-main-info-product .order__block-list-item .order__block-content .order__block-description-info-product .order__price-product {
+  color: #46A358;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+}
+.order__main-block .order__block-delivery-info .order__block-short-info-product .order__block-main-info-product .order__block-list-item .order__total-values-blocks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.order__main-block .order__block-delivery-info .order__block-short-info-product .order__block-main-info-product .order__block-list-item .order__total-values-blocks .order__block-total-value {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.order__main-block .order__block-delivery-info .order__block-short-info-product .order__block-main-info-product .order__block-list-item .order__total-values-blocks .order__block-total-value .order__price-total-name {
+  margin-right: 10px;
+  margin-right: 10px;
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 16px;
+}
+.order__main-block .order__block-delivery-info .order__block-short-info-product .order__block-main-info-product .order__block-list-item .order__total-values-blocks .order__block-total-value .order__price-total-value {
+  color: #46A358;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+}
+.order__main-block .order__block-delivery-info .order__block-short-info-product .order__block-main-info-product .order__block-list-item .order__total-values-blocks .order__block-total-value-quantity {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.order__main-block .order__block-delivery-info .order__block-short-info-product .order__block-main-info-product .order__block-list-item .order__total-values-blocks .order__block-total-value-quantity .order__quantity-total-name {
+  margin-right: 10px;
+  margin-right: 10px;
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 16px;
+}
+.order__main-block .order__block-delivery-info .order__block-short-info-product .order__block-main-info-product .order__block-list-item .order__total-values-blocks .order__block-total-value-quantity .order__quantity-total-value {
+  color: #46A358;
+  font-family: Cera Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+}
+.order__main-block .order__block-delivery-info .order__block-short-info-product .order__block-main-info-product .order__block-list-item .order__block-recipient {
+  display: flex;
+  flex-direction: column;
+}
+.order__main-block .order__block-delivery-info .order__block-short-info-product .order__block-main-info-product .order__block-list-item .order__block-recipient .order__main-blocks-about-user-recipients-info .order__block-recipient-inside {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.order__main-block .order__block-delivery-info .order__block-short-info-product .order__block-main-info-product .order__block-list-item .order__block-recipient .order__main-blocks-about-user-recipients-info .order__block-recipient-inside .order__header-recipient {
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  margin-right: 10px;
+}
+.order__main-block .order__block-delivery-info .order__block-short-info-product .order__block-main-info-product .order__block-list-item .order__block-recipient .order__main-blocks-about-user-recipients-info .order__block-recipient-inside .order__recipient-value-block {
+  display: flex;
+  flex-direction: row;
+}
+.order__main-block .order__block-delivery-info .order__block-short-info-product .order__block-main-info-product .order__block-list-item .order__block-recipient .order__main-blocks-about-user-recipients-info .order__block-recipient-inside .order__recipient-value-block .order__recipient-first-name {
+  margin-right: 5px;
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+.order__main-block .order__block-delivery-info .order__block-short-info-product .order__block-main-info-product .order__block-list-item .order__block-recipient .order__main-blocks-about-user-recipients-info .order__block-recipient-inside .order__recipient-value-block .order__recipient-last-name {
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+.order__main-block .order__block-delivery-info .order__block-short-info-product .order__block-main-info-product .order__block-list-item .order__block-recipient .order__main-blocks-about-user-recipients-info .order__block-city-user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.order__main-block .order__block-delivery-info .order__block-short-info-product .order__block-main-info-product .order__block-list-item .order__block-recipient .order__main-blocks-about-user-recipients-info .order__block-city-user .order__city-user-name {
+  color: #3D3D3D;
+  margin-right: 10px;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 106.667% */
+}
+.order__main-block .order__block-delivery-info .order__block-short-info-product .order__block-main-info-product .order__block-list-item .order__block-recipient .order__main-blocks-about-user-recipients-info .order__block-city-user .order__city-user-value {
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 106.667% */
+}
+.order__main-block .order__block-delivery-info .order__block-short-info-product .order__block-main-info-product .order__block-list-item .order__block-recipient .order__main-blocks-about-user-recipients-info .order__block-adress-user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.order__main-block .order__block-delivery-info .order__block-short-info-product .order__block-main-info-product .order__block-list-item .order__block-recipient .order__main-blocks-about-user-recipients-info .order__block-adress-user .order__adress-user-name {
+  color: #3D3D3D;
+  margin-right: 10px;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 106.667% */
+}
+.order__main-block .order__block-delivery-info .order__block-short-info-product .order__block-main-info-product .order__block-list-item .order__block-recipient .order__main-blocks-about-user-recipients-info .order__block-adress-user .order__adress-user-value {
+  color: #3D3D3D;
+  font-family: Cera Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 106.667% */
+}/*# sourceMappingURL=accountOrder.css.map */

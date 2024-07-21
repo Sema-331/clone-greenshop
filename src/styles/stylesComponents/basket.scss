@@ -1,0 +1,751 @@
+.basket__block-main {
+    margin: 80px 0px;
+    @media(max-width: 576px) {
+        margin: 30px 0px 80px 0px;
+    }
+    .basket__block-main-inside {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 80px;
+        @media(max-width: 1100px) {
+            flex-direction: column;
+        }
+        .basket__block-info-product {
+            width: 62%;
+            position: relative;
+            @media(max-width: 1100px) {
+                width: 100%;
+            }
+            .basket__block-go-back {
+                position: absolute;
+                top: -10px;
+                @media(min-width: 576px) {
+                    display: none;
+                }
+                .basket__btn-back {
+                    .basket__image-back {
+                        border-radius: 50%;
+                        border: 1px solid #80808078;
+                        background: #f3f3f3;
+                        color: grey;
+                        padding: 5px;
+                        width: 33px;
+                        height: 33px;
+                    }
+                }
+            }
+            .basket__header-name-mobile {
+                text-align: center;
+                color: #3D3D3D;
+                margin-bottom: 25px;
+                font-family: Cera Pro;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 16px; /* 80% */
+                @media(min-width: 576px) {
+                    display: none;
+                }
+            }
+            .basket__block-titles {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 100%;
+                padding: 0px 0px 35px 0px;
+                border-bottom: 1px solid rgba(70, 163, 88, 0.50);
+                @media(max-width: 576px) {
+                    display: none;
+                }
+            .basket__block-product {
+                width: 40%;
+                .basket__product-header {
+                    color: #3D3D3D;
+                    font-family: Cera Pro;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 16px;
+                }
+            }
+            .basket__block-price {
+                width: 10%;
+                .basket__product-price {
+                    color: #3D3D3D;
+                    font-family: Cera Pro;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 16px;
+                }
+            }
+            .basket__block-quantity {
+                width: 11%;
+                .basket__product-quantity {
+                    color: #3D3D3D;
+                    font-family: Cera Pro;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 16px;
+                }
+            }
+            .basket__block-total {
+                width: 16%;
+                .basket__product-total {
+                    color: #3D3D3D;
+                    font-family: Cera Pro;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 16px;
+                }
+            }
+        }
+        .basket__items-block {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-bottom: 25px;
+            justify-content: space-between;
+            padding: 10px 20px 10px 35px;
+            @media(max-width: 740px) {
+                padding: 10px 5px 10px 5px;;
+            }
+            &:hover {
+                cursor: pointer;
+                box-shadow: 0px 30px 18px -8px rgba(0, 0, 0,0.1);
+                transform: scale(1.05, 1.05);
+                .basket__checked-item-for-payment {
+                    display: block;
+                    position: absolute;
+                    left: 18px;
+                    top: 50%;
+                    &:hover {
+                        cursor: pointer;
+                    }
+                }
+            }
+            .basket__checked-item-for-payment {
+                display: none;
+            }
+            .basket__checked-item-for-payment-active {
+                display: block;
+                position: absolute;
+                left: 18px;
+                top: 50%;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+            .basket__item-block-with-image {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                width: 41%;
+                @media(max-width: 740px) {
+                    margin-left: 20px;
+                }
+                .basket__item-image {
+                    margin-right: 25px;
+                    @media(max-width: 740px) {
+                        margin-right: 0px;
+                    }
+                    .basket__image {
+                        width: 100px;
+                        height: 100px;
+                        @media(max-width: 660px) {
+                            width: 75px;
+                            height: 75px;
+                        }
+                    }
+                }
+                .basket__item-identificatore {
+                    .basket__item-product-title {
+                        color: #3D3D3D;
+                        font-family: Cera Pro;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 16px;
+                        margin-bottom: 10px;
+                    }
+                    .basket__block-inside-identificatore {
+                        display: flex;
+                        flex-direction: row;
+                        .basket__item-product-description {
+                            color: #A5A5A5;
+                            margin-right: 10px;
+                            font-family: Cera Pro;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 16px;
+                        }
+                        .basket__main-description-identificatore {
+                            color: #727272;
+                            font-family: Cera Pro;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 16px;
+                            margin-right: 10px;
+                        } 
+                    }
+                }
+            }
+            .basket__block-price-product {
+                width: 12%;
+                @media(max-width: 740px) {
+                    display: flex;
+                    justify-content: space-around;
+                    width: 7%;
+                }
+                .basket__product-price-description {
+                    color: #727272;
+                    font-family: Cera Pro;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 16px;
+                }
+            }
+            .basket__count-product-buttons-block {
+                width: 15%;
+                @media(max-width: 576px) {
+                    width: 25%;
+                    display: flex;
+                    align-items: end;
+                    margin-bottom: 20px;
+                }
+                .basket__count-product-buttons-inside {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    .basket__count-decrement {
+                        border-radius: 29px;
+                        background: linear-gradient(180deg, #46A358 0%, rgba(70, 163, 88, 0.8) 100%);
+                        padding: 6px 10.6px;
+                        /* width: 40px; */
+                        font-size: 13px;
+                        margin-right: 10px;
+                        color: #fff;
+                        &:hover {
+                            cursor: pointer;
+                            color: #46A358;
+                            background: #fff;
+                            outline: 1px solid #46A358;
+                        }
+                    }
+                    .basket__product-amount {
+                        color: #3D3D3D;
+                        font-family: Cera Pro;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 10px;
+                    }
+                    .basket__count-increment {
+                        margin-left: 10px;
+                        border-radius: 29px;
+                        background: linear-gradient(180deg, #46A358 0%, rgba(70, 163, 88, 0.8) 100%);
+                        padding: 6px 9.4px;
+                        /* width: 40px; */
+                        font-size: 13px;
+                        color: #fff;
+                        &:hover {
+                            cursor: pointer;
+                            color: #46A358;
+                            background: #fff;
+                            outline: 1px solid #46A358;
+                        }
+                    }
+                }
+            }
+            .basket__product-total-price {
+                width: 15%;
+                .basket__block-remove-items {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                    .basket__product-total-price-description {
+                        color: #46A358;
+                        font-family: Cera Pro;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 16px;
+                    }
+                    svg {
+                        &:hover {
+                            transform: scale(1.15);
+                            transition: all .4s ease-in-out;
+                        }
+                    }
+                }
+            }
+        }
+    }
+        .basket__block-all-about {
+            width: 24%;
+            @media(max-width: 1100px) {
+                width: 100%;
+            }
+            @media(max-width: 576px) {
+                display: none;
+            }
+            .basket__block-cart-totals {
+                width: 100%;
+                padding: 0px 0px 35px 0px;
+                border-bottom: 1px solid rgba(70, 163, 88, 0.50);
+                .basket__product-cart-total-header {
+                    color: #3D3D3D;
+                    font-family: Cera Pro;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 16px;
+                }
+            }
+            .basket__block-full-price-product {
+                .basket__block-coupon-search {
+                    display: flex;
+                    flex-direction: column;
+                    margin-bottom: 40px;
+                    margin-top: 20px;
+                    .basket__description-coupon-sale {
+                        margin-bottom: 10px;
+                        color: #3D3D3D;
+                        font-family: Cera Pro;
+                        font-size: 14px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 16px;
+                    }
+                    .basket__block-input-search-coupon {
+                        border-radius: 3px;
+                        border: 1px solid #46A358;
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                        .basket__input-search {
+                            padding: 11px 12px;
+                            width: 100%;
+                        }
+                        .basket__button-apply-coupon {
+                            color: #FFF;
+                            font-family: Cera Pro;
+                            font-size: 15px;
+                            font-style: normal;
+                            font-weight: 700;
+                            background: #46A358;
+                            line-height: 16px;
+                            padding: 15px;
+                            &:hover {
+                                cursor: pointer;
+                                opacity: 0.7;
+                                background: rgba(70, 163, 88, 0.9019607843);
+                                transition: all .3s ease-in-out;
+                              }
+                        }
+                    }
+                }
+                .basket__block-discovery {
+                    .basket__block-subtotal {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        align-items: center;
+                        margin-bottom: 20px;
+                        .basket__header-subtotal {
+                            color: #3D3D3D;
+                            font-family: Cera Pro;
+                            font-size: 15px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 16px;
+                        }
+                        .basket__price-all-product {
+                            color: #3D3D3D;
+                            text-align: right;
+                            font-family: Cera Pro;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 16px;
+                        }
+                    }
+                }
+                .basket__coupon-discount {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-bottom: 30px;
+                    .basket__header-coupon-discount {
+                        color: #3D3D3D;
+                        font-family: Cera Pro;
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 16px;
+                    }
+                    .basket__price-coupon-discount {
+                        color: #3D3D3D;
+                        font-family: Cera Pro;
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 16px;
+                    }
+                }
+                .basket__block-shipping {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    /* align-items: center; */
+                    margin-bottom: 40px;
+                    .basket__header-shipping {
+                        color: #3D3D3D;
+                        font-family: Cera Pro;
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 16px;
+                    }
+                    .basket__change-shipping {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: end;
+                        .basket__description-salary-shipping {
+                            color: #3D3D3D;
+                            text-align: right;
+                            font-family: Cera Pro;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: 16px;
+                        }
+                        .basket__shipping-change-view {
+                            color: #46A358;
+                            font-family: Cera Pro;
+                            font-size: 12px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: 16px;
+                        }
+                    }
+                }
+                .basket__total-price-items {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-bottom: 40px;
+                    .basket__header-total-price-items {
+                        color: #3D3D3D;
+                        font-family: Cera Pro;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 16px;
+                    }
+                    .basket__sum-orice-items {
+                        color: #46A358;
+                        text-align: right;
+                        font-family: Cera Pro;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: 16px;
+                    }
+                }
+                .backet__block-check-out {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    .basket__btn-check-out {
+                        color: #FFF;
+                        font-family: Cera Pro;
+                        font-size: 18px;
+                        background: #46A358;
+                        font-style: normal;
+                        width: 100%;
+                        font-weight: 700;
+                        line-height: 16px;
+                        margin-bottom: 20px;
+                        border-radius: 5px;
+                        padding: 20px;
+                        &:hover {
+                            background-color: #fff;
+                            cursor: pointer;
+                            color: #46A358;
+                            outline: 1px solid #46A358;
+                            transition: all .3s ease-in-out;
+                        }
+                    }
+                    .basket__description-continue-shopping {
+                        color: #46A358;
+                        font-family: Cera Pro;
+                        font-size: 15px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: 16px;
+                        &:hover {
+                            cursor: pointer;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.basket__product-null {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 80px;
+    @media(max-width: 470px) {
+        flex-direction: column;
+    }
+    .basket__product-null-image {
+        .basket__product-image-null {
+            @media(max-width: 1000px) {
+                width: 175px;
+                height: 175px;
+            }
+            @media(max-width: 800px) {
+                width: 125px;
+                height: 125px;
+            }
+        }
+    }
+    .basket__block-product-navigation-items {
+        @media(max-width: 470px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .basket__header-product-navigation {
+            color: #3D3D3D;
+            font-family: Cera Pro;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 16px;
+            margin-bottom: 10px;
+            @media(max-width: 800px) {
+                font-size: 18px;
+                margin-bottom: 5px;
+            }
+            @media(max-width: 470px) {
+                font-size: 15px;
+                margin-bottom: 0px;
+            }
+        }
+        .basket__description-product-navigation {
+            margin-bottom: 25px;
+            /* font-size: 14px; */
+            color: #727272;
+            font-family: Cera Pro;
+            /* margin-bottom: 64px; */
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+            @media(max-width: 800px) {
+                font-size: 16px;
+                margin-bottom: 15px;
+            }
+            @media(max-width: 470px) {
+                font-size: 13px;
+            }
+        }
+        .basket__button-product-navigation {
+            color: #FFF;
+            font-family: Cera Pro;
+            background: #46A358;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 20px;
+            text-transform: uppercase;
+            padding: 12px 23px;
+            border-radius: 7px;
+            &:hover {
+                cursor: pointer;
+                outline: 1px solid #46A358;
+                background: #fff;
+                color: #46A358;
+                transition: all .3s ease-in-out;
+            }
+            @media(max-width: 800px) {
+                font-size: 16px;
+                padding: 10px 19px;
+            }
+            @media(max-width: 470px) {
+                font-size: 13px;
+            }
+        }
+    }
+}
+.basket__items-block-active {
+    opacity: 0.5;
+}
+.basket__item-block-active {
+    box-shadow: 0px 30px 18px -8px rgba(0, 0, 0,0.1);
+    transform: scale(1.05, 1.05);
+}
+.basket__main-block-products-item {
+.basket__item-block-active-mobile {
+    display: flex;
+    flex-direction: row;
+    border-radius: 14px;
+    padding: 10px 20px;
+    align-items: center;
+    background: linear-gradient(93deg, #FFF -0.94%, #FFF 105.02%);
+    box-shadow: 0px 6px 20px 0px rgb(210 210 210 / 54%);
+    justify-content: space-between;
+    &:not(:last-child) {
+        margin-bottom: 20px;
+    }
+    .basket__item-block-active-inside-mobile {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        @media(max-width: 576px) {
+            margin-left: 15px;
+        }
+        @media(max-width: 380px) {
+            margin-left: 0px;
+        }
+        .basket__item-block-image-mobile {
+            @media(max-width: 380px) {
+                margin-left: 15px;
+            }
+            .basket__product-image-mobile {
+                width: 100px;
+                height: 100px;
+                @media(max-width: 380px) {
+                    width: 70px;
+                    height: 70px;
+                }
+            }
+        }
+        .basket__item-block-description-price-mobile {
+            .basket__block-sizes-product {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                margin-bottom: 8px;
+                .basket__sizes-name {
+                    color: #727272;
+                    font-family: Cera Pro;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 16px;
+                }
+                .basket__sizes-abbr {
+                    color: #727272;
+                    font-family: Cera Pro;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 700;
+                    margin-left: 7px;
+                    line-height: 16px;
+                }
+            }
+            .basket__header-product-header-mobile {
+                color: #3D3D3D;
+                font-family: Cera Pro;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 16px;
+                margin-bottom: 5px;
+                @media(max-width: 576px) {
+                    font-size: 14px;
+                }
+            }
+            .basket__product-price-mobile {
+                color: #46A358;
+                font-family: Cera Pro;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 16px;
+                @media(max-width: 576px) {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+        .basket__count-product-buttons-block {
+            width: 15%;
+            @media(max-width: 576px) {
+                width: 25%;
+                display: flex;
+                align-items: end;
+            }
+            @media(max-width: 380px) {
+                margin-top: 20px;
+                margin-bottom: 0px;
+            }
+            .basket__count-product-buttons-inside {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                .basket__count-decrement {
+                    border-radius: 29px;
+                    background: linear-gradient(180deg, #46A358 0%, rgba(70, 163, 88, 0.8) 100%);
+                    padding: 5px 11px;
+                    /* width: 40px; */
+                    font-size: 13px;
+                    margin-right: 10px;
+                    color: #fff;
+                    &:hover {
+                        cursor: pointer;
+                        color: #46A358;
+                        background: #fff;
+                        border: 1px solid #46A358;
+                    }
+                }
+                .basket__product-amount {
+                    color: #3D3D3D;
+                    font-family: Cera Pro;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 10px;
+                }
+                .basket__count-increment {
+                    margin-left: 10px;
+                    border-radius: 29px;
+                    background: linear-gradient(180deg, #46A358 0%, rgba(70, 163, 88, 0.8) 100%);
+                    padding: 5px 10px;
+                    /* width: 40px; */
+                    font-size: 13px;
+                    color: #fff;
+                    &:hover {
+                        cursor: pointer;
+                        color: #46A358;
+                        background: #fff;
+                        border: 1px solid #46A358;
+                    }
+                }
+            }
+    }
+}
+}
+.basket__item-block-active-mobile {
+    .basket__item-checked-for-payment {
+        @media(max-width: 380px) {
+            left: 23px;
+        }
+    }
+}
