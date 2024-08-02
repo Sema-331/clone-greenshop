@@ -1,6 +1,6 @@
 # Greenshop - Сайт для покупки цветов
 
-## Демо
+## ✨ Демо
 
 ![alt text](image.png)
 
@@ -18,7 +18,7 @@
 
 React, Javascript, Firebase, SCSS, Json-server, Reduxtoolkit, Greensocks
 
-## Запуск проекта
+## ▶ Запуск проекта
 
 `npm start`
 `json-server --watch db.json --port 3001`
